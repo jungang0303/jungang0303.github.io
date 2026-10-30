@@ -595,7 +595,7 @@ window.LISTINGS = [
   },
   {
     "id": "mukjeong-oneroom",
-    "status": "공개",
+    "status": "비공개",
     "cat": "원룸·투룸",
     "title": "동대후문 풀옵션 원룸",
     "loc": "중구 묵정동",
