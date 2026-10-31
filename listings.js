@@ -26,7 +26,7 @@ window.LISTINGS = [
     "areaNote": "공급 50.58㎡",
     "floor": "6층",
     "totalFloor": "10층",
-    "rooms": "방 1개",
+    "rooms": "방 2개",
     "baths": "욕실 1개",
     "dir": "남동향 (거실 기준)",
     "approval": "2019년 4월 19일",
