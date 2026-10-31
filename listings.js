@@ -12,6 +12,44 @@
    ========================================================= */
 window.LISTINGS = [
   {
+    "id": "euljiro4-officetel-sale",
+    "status": "공개",
+    "cat": "오피스텔",
+    "title": "을지로4가 도보1분 거리 투룸 오피스텔",
+    "loc": "중구 을지로4가",
+    "jibun": "187-9",
+    "deal": "매매",
+    "deposit": 31000,
+    "fee": "9만원",
+    "lease": "전세 2억 6,500만원",
+    "area": 29.93,
+    "areaNote": "공급 50.58㎡",
+    "floor": "6층",
+    "totalFloor": "10층",
+    "rooms": "방 1개",
+    "baths": "욕실 1개",
+    "dir": "남동향 (거실 기준)",
+    "approval": "2019년 4월 19일",
+    "use": "업무시설 (오피스텔)",
+    "parking": "건물 전체 29대",
+    "movein": "2027년 8월 1일부터",
+    "options": "천장형 에어컨, 신발장, 냉장고, 세탁기, 싱크대, 인덕션, 엘리베이터 / 개별난방",
+    "tags": [
+      "을지로4가역 도보 1분"
+    ],
+    "desc": "을지로4가역 7번 출구 도보 1분 거리 초역세권 투룸 오피스텔입니다. 현 임대차는 전세 2억 6,500만원에 계약되어 있습니다. 실입주는 2027년 8월 1일부터 가능합니다. 현장 방문은 사전에 미리 방문 일정을 잡고 보실 수 있습니다.",
+    "photos": [
+      "listings/euljiro4-officetel-sale-1.jpg",
+      "listings/euljiro4-officetel-sale-2.jpg",
+      "listings/euljiro4-officetel-sale-3.jpg",
+      "listings/euljiro4-officetel-sale-4.jpg",
+      "listings/euljiro4-officetel-sale-5.jpg",
+      "listings/euljiro4-officetel-sale-6.jpg",
+      "listings/euljiro4-officetel-sale-7.jpg"
+    ],
+    "updated": "2026-10-31"
+  },
+  {
     "id": "jangchung-oneroom-2",
     "status": "공개",
     "cat": "원룸·투룸",
