@@ -632,42 +632,5 @@ window.LISTINGS = [
       "listings/pildong-tworoom-sale-5f-9.jpg"
     ],
     "updated": "2026-10-30"
-  },
-  {
-    "id": "jangchung-oneroom",
-    "status": "공개",
-    "cat": "원룸·투룸",
-    "title": "동국대 쪽문 도보 1분 원룸",
-    "loc": "중구 장충동2가",
-    "jibun": "193-50",
-    "deal": "월세",
-    "deposit": 500,
-    "rent": 50,
-    "fee": "3만원",
-    "area": 16.53,
-    "areaNote": "임대 부분 (호실 전용 59.79㎡ 중 일부)",
-    "floor": "1층",
-    "totalFloor": "4층 (지하 1층)",
-    "rooms": "방 1개 (오픈형)",
-    "baths": "욕실 1개",
-    "dir": "북향 (안방 기준)",
-    "approval": "1997년 2월 14일",
-    "use": "공동주택 (다세대주택)",
-    "parking": "건물 전체 2대 (옥내 자주식, 건축물대장 기준)",
-    "violation": false,
-    "movein": "2026년 12월 12일 이후",
-    "options": "냉장고, 세탁기, 에어컨, 싱크대, 신발장",
-    "tags": [
-      "전속",
-      "동국대 도보 1분"
-    ],
-    "desc": "냉장고, 세탁기, 에어컨, 싱크대, 신발장을 갖춘 오픈형 원룸입니다. 동국대학교 쪽문 도보 1분, 후문·중문 도보 5분, 동대입구역 도보 7분, 충무로역 도보 10분 거리입니다.",
-    "photos": [
-      "listings/jangchung-oneroom-1.jpg",
-      "listings/jangchung-oneroom-2.jpg",
-      "listings/jangchung-oneroom-3.jpg",
-      "listings/jangchung-oneroom-4.jpg"
-    ],
-    "updated": "2026-10-29"
   }
 ];
