@@ -14,6 +14,44 @@
    ========================================================= */
 window.LISTINGS = [
   {
+    "id": "mukjeong-threeroom-2f",
+    "status": "공개",
+    "cat": "원룸·투룸",
+    "title": "단독주택 2층 쓰리룸",
+    "loc": "중구 묵정동",
+    "jibun": "28-25",
+    "deal": "월세",
+    "deposit": 1000,
+    "rent": 95,
+    "fee": "없음 (수도요금은 집주인 세대와 안분 납부)",
+    "area": 49.58,
+    "floor": "2층",
+    "totalFloor": "2층",
+    "rooms": "방 3개 (분리형)",
+    "baths": "욕실 1개",
+    "dir": "서향 (안방 기준)",
+    "approval": "1974년 7월 10일",
+    "use": "단독주택",
+    "parking": "불가",
+    "violation": false,
+    "movein": "즉시 입주",
+    "options": "벽걸이 에어컨(거실), 냉장고, 세탁기, 가스레인지",
+    "tags": [
+      "동대후문·충무초 인근",
+      "2층 전체 단독 사용"
+    ],
+    "desc": "*단기임대 및 공유숙박업은 불가능 합니다.\n동대후문 충무초 인근에 위치한 단독주택2층 3룸 월세\n레트로 감성의 오래된 단독주택 2층 전체 단독 사용\n옵션: 냉장고,세탁기, 에어컨(거실) 등\n별도의 관리비는 없으며 수도요금은 집주인세대와 안분하여 납부 합니다.\n현재 공실로 즉시 입주 가능 합니다.",
+    "photos": [
+      "listings/mukjeong-threeroom-2f-1.jpg",
+      "listings/mukjeong-threeroom-2f-2.jpg",
+      "listings/mukjeong-threeroom-2f-3.jpg",
+      "listings/mukjeong-threeroom-2f-4.jpg",
+      "listings/mukjeong-threeroom-2f-5.jpg",
+      "listings/mukjeong-threeroom-2f-6.jpg"
+    ],
+    "updated": "2026-11-03"
+  },
+  {
     "id": "euljiro4-officetel-sale",
     "status": "공개",
     "cat": "오피스텔",
