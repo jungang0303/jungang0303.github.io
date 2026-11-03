@@ -41,7 +41,8 @@
   "openingHours": ["Mo-Sa 10:00-18:00"],
   "openingHoursSpecification": [
     {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "18:00"},
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "18:00", "validFrom": "2026-12-01", "validThrough": "2027-02-28"}
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "18:00", "validFrom": "2026-12-01", "validThrough": "2027-02-28"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "18:00", "validFrom": "2027-12-01", "validThrough": "2028-02-29"}
   ],
   "areaServed": ["충무로", "필동", "장충동", "오장동", "묵정동", "퇴계로"],
   "sameAs": [
@@ -69,6 +70,8 @@ a{color:inherit}
 h1,h2,h3{line-height:1.3;margin:0;text-wrap:balance}
 p{margin:0}
 .eyebrow{font-size:13px;font-weight:700;letter-spacing:.12em;color:var(--gold-ink);margin:0}
+.hero .eyebrow{color:var(--gold)}
+[hidden]{display:none!important}
 .num{font-variant-numeric:tabular-nums}
 .logo{width:36px;height:26px;color:var(--gold);flex:none}
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
@@ -231,10 +234,10 @@ dialog::backdrop{background:rgba(10,16,30,.62)}
 .gal{position:relative}
 .gal .ph{aspect-ratio:4/3;background:#0b1222}
 .gal .ph img{object-fit:contain}
-.gal-btn{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;border:0;background:rgba(0,0,0,.45);color:#fff;font-size:26px;line-height:1;cursor:pointer;z-index:1}
+.gal-btn{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:0;background:rgba(0,0,0,.45);color:#fff;font-size:26px;line-height:1;cursor:pointer;z-index:1}
 .gal-btn.prev{left:10px}.gal-btn.next{right:10px}
 .gal-count{position:absolute;bottom:10px;right:12px;font-size:13px;color:#fff;background:rgba(0,0,0,.5);padding:2px 9px;border-radius:999px;z-index:1}
-.close{position:absolute;top:10px;right:10px;z-index:2;background:rgba(0,0,0,.45);color:#fff;border:0;width:40px;height:40px;border-radius:50%;font-size:22px;cursor:pointer}
+.close{position:absolute;top:10px;right:10px;z-index:2;background:rgba(0,0,0,.45);color:#fff;border:0;width:44px;height:44px;border-radius:50%;font-size:22px;cursor:pointer}
 .thumbs{display:flex;gap:6px;padding:10px 22px 0;overflow-x:auto}
 .thumbs button{flex:none;width:66px;height:50px;padding:0;border:2px solid transparent;border-radius:4px;overflow:hidden;cursor:pointer;background:none}
 .thumbs button[aria-current="true"]{border-color:var(--gold)}
@@ -432,7 +435,7 @@ dialog::backdrop{background:rgba(10,16,30,.62)}
 </footer>
 
 <nav class="mbar" aria-label="빠른 연락">
-  <a href="tel:0222650303"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>전화 상담</a>
+  <a href="tel:01026120303"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>전화 상담</a>
   <a href="sms:01026120303"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H8l-4 4V6a2 2 0 0 1 2-2zm3 5v2h10V9H7zm0 4v2h7v-2H7z"/></svg>문자 상담</a>
   <a href="https://pf.kakao.com/_CxbAxiX/chat" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3C6.5 3 2 6.6 2 11c0 2.8 1.9 5.3 4.7 6.7L5.8 21l3.9-2.6c.7.1 1.5.2 2.3.2 5.5 0 10-3.6 10-8S17.5 3 12 3z"/></svg>카카오톡</a>
 </nav>
@@ -468,14 +471,17 @@ dialog::backdrop{background:rgba(10,16,30,.62)}
   const CATS = ["원룸·투룸","오피스텔","빌라","사무실","상가·건물","오토바이 상가","인쇄 공장·창고"];
   const all = (window.LISTINGS || []).filter(l => l.status !== "비공개");
   const pyeong = m => (m/3.3058).toFixed(1);
+  const has = v => v !== undefined && v !== null && v !== "";
+  const numOk = v => has(v) && isFinite(Number(v));
+  const areaText = l => numOk(l.area) ? `${l.area}㎡ (${pyeong(l.area)}평)` : "";
   const won = n => Number(n).toLocaleString("ko-KR");
   const eok = n => n >= 10000 ? `${Math.floor(n/10000)}억${n%10000 ? ` ${won(n%10000)}만` : ""}` : `${won(n)}만`;
-  const priceText = l => l.deal==="매매" ? `매매 ${eok(l.deposit)}` : l.deal==="전세" ? `전세 ${eok(l.deposit)}` : `${l.deal} ${won(l.deposit)} / ${won(l.rent)}`;
+  const priceText = l => !numOk(l.deposit) ? "가격 문의" : l.deal==="매매" ? `매매 ${eok(l.deposit)}` : l.deal==="전세" ? `전세 ${eok(l.deposit)}` : numOk(l.rent) ? `${l.deal} ${won(l.deposit)} / ${won(l.rent)}` : `${l.deal} 보증금 ${won(l.deposit)}`;
   const areaLabel = l => l.areaLabel || "전용";
   const violText = l => l.violation === true ? "위반건축물" : l.violation === false ? "위반건축물 아님" : "";
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
   const locText = l => l.jibun ? `${l.loc} ${l.jibun}` : l.loc;
-  const floorText = l => l.totalFloor ? `${l.floor} / 총 ${l.totalFloor}` : l.floor;
+  const floorText = l => has(l.floor) && has(l.totalFloor) ? `${l.floor} / 총 ${l.totalFloor}` : has(l.floor) ? String(l.floor) : has(l.totalFloor) ? `총 ${l.totalFloor}` : "";
 
   const toastEl = document.getElementById("toast");
   function toast(msg){ toastEl.textContent = msg; toastEl.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(()=>toastEl.classList.remove("show"), 1800); }
@@ -517,8 +523,8 @@ dialog::backdrop{background:rgba(10,16,30,.62)}
         : `<svg aria-hidden="true"><use href="#mark"/></svg><span class="ph-note">사진 준비 중</span>`;
       b.innerHTML = `<div class="ph"><div class="badges">${badges}</div>${ph}</div>
         <div class="item-body"><span class="cat">${esc(l.cat)} · ${esc(l.loc)}</span><h3>${esc(l.title)}</h3>
-        <div class="price num">${priceText(l)}</div>
-        <div class="meta num">${esc(areaLabel(l))} ${l.area}㎡ (${pyeong(l.area)}평) · ${esc(floorText(l))}${l.fee ? ` · 관리비 ${esc(l.fee)}` : ""}</div></div>`;
+        <div class="price num">${esc(priceText(l))}</div>
+        <div class="meta num">${esc([areaText(l) ? `${areaLabel(l)} ${areaText(l)}` : "", floorText(l), l.fee ? `관리비 ${l.fee}` : ""].filter(Boolean).join(" · "))}</div></div>`;
       b.addEventListener("click", () => openItem(l));
       grid.appendChild(b);
     });
@@ -527,7 +533,7 @@ dialog::backdrop{background:rgba(10,16,30,.62)}
 
   /* 상세 창 */
   const dlg = document.getElementById("dlg");
-  let gal = [], gi = 0, cur = null;
+  let gal = [], gi = 0, cur = null, pushed = false;
   function showPhoto(i){
     const ph = document.getElementById("dlgPh");
     const many = gal.length > 1;
@@ -548,29 +554,38 @@ dialog::backdrop{background:rgba(10,16,30,.62)}
     cur = l;
     document.getElementById("dlgCat").textContent = l.status==="거래완료" ? `${l.cat} · 거래완료` : l.cat;
     document.getElementById("dlgTitle").textContent = l.title;
-    document.getElementById("dlgPrice").textContent = l.deal==="월세" ? `보증금 ${won(l.deposit)}만원 / 월 ${won(l.rent)}만원` : `${l.deal} ${eok(l.deposit)}원`;
+    document.getElementById("dlgPrice").textContent = !numOk(l.deposit) ? "가격 문의" : l.deal==="월세" && numOk(l.rent) ? `보증금 ${won(l.deposit)}만원 / 월 ${won(l.rent)}만원` : `${l.deal} ${eok(l.deposit)}원`;
     document.getElementById("dlgDesc").textContent = l.desc || "";
     const rows = [
       ["소재지", locText(l)], ["거래 형태", l.deal],
-      ["가격", l.deal==="월세" ? `보증금 ${won(l.deposit)}만원 / 월세 ${won(l.rent)}만원` : `${eok(l.deposit)}원`],
+      ["가격", !numOk(l.deposit) ? "" : l.deal==="월세" && numOk(l.rent) ? `보증금 ${won(l.deposit)}만원 / 월세 ${won(l.rent)}만원` : `${eok(l.deposit)}원`],
       ["현재 임대", l.lease],
-      ["관리비", l.fee], [l.areaLabel ? l.areaLabel : "전용면적", `${l.area}㎡ (${pyeong(l.area)}평)${l.areaNote ? ` · ${l.areaNote}` : ""}`],
-      ["해당 층 / 총 층수", floorText(l)], ["방 / 욕실", [l.rooms, l.baths].filter(Boolean).join(" / ")],
+      ["관리비", l.fee], [l.areaLabel ? l.areaLabel : "전용면적", areaText(l) ? `${areaText(l)}${l.areaNote ? ` · ${l.areaNote}` : ""}` : (l.areaNote || "")],
+      ["해당 층 / 총 층수", floorText(l)], [has(l.rooms) && has(l.baths) ? "방 / 욕실" : has(l.baths) ? "욕실" : "방", [l.rooms, l.baths].filter(has).join(" / ")],
       ["방향", l.dir], ["건축물 용도", l.use], ["위반건축물", violText(l)],
       [l.approvalLabel || "사용승인일", l.approval], ["주차", l.parking], ["입주 가능일", l.movein], ["옵션", l.options]
-    ].filter(r => r[1]);
-    document.getElementById("dlgSpec").innerHTML = rows.map(r => `<tr><th>${r[0]}</th><td>${esc(r[1])}</td></tr>`).join("");
+    ].filter(r => has(r[1]));
+    document.getElementById("dlgSpec").innerHTML = rows.map(r => `<tr><th>${esc(r[0])}</th><td>${esc(r[1])}</td></tr>`).join("");
     gal = l.photos || [];
     const thumbs = document.getElementById("galThumbs");
     thumbs.hidden = gal.length < 2;
     thumbs.innerHTML = gal.map((src,j) => `<button type="button" aria-label="사진 ${j+1}"><img src="${esc(src)}" alt="" loading="lazy"></button>`).join("");
     thumbs.querySelectorAll("button").forEach((t,j) => t.addEventListener("click", () => showPhoto(j)));
     showPhoto(0);
-    if (!fromHash) history.replaceState(null, "", "#m-" + l.id);
+    if (!fromHash){
+      if (location.hash.startsWith("#m-")) history.replaceState(null, "", "#m-" + l.id);
+      else { history.pushState(null, "", "#m-" + l.id); pushed = true; }
+    }
     if (!dlg.open) dlg.showModal();
   }
   function closeItem(){ dlg.close(); }
-  dlg.addEventListener("close", () => { if (location.hash.startsWith("#m-")) history.replaceState(null, "", location.pathname + location.search); });
+  /* 닫을 때: 열면서 기록을 하나 추가했으면 뒤로 한 칸, 공유 주소로 들어왔으면 주소만 정리. 휴대폰 뒤로가기로도 닫힘 */
+  dlg.addEventListener("close", () => {
+    if (location.hash.startsWith("#m-")){
+      if (pushed){ pushed = false; history.back(); }
+      else history.replaceState(null, "", location.pathname + location.search);
+    } else pushed = false;
+  });
   document.getElementById("dlgClose").addEventListener("click", closeItem);
   dlg.addEventListener("click", e => { if (e.target === dlg) closeItem(); });
   document.addEventListener("keydown", e => { if (!dlg.open) return; if (e.key==="ArrowLeft") showPhoto(gi-1); if (e.key==="ArrowRight") showPhoto(gi+1); });
@@ -586,23 +601,26 @@ dialog::backdrop{background:rgba(10,16,30,.62)}
 
   function fromHash(){
     const m = location.hash.match(/^#m-(.+)$/);
-    if (!m) return;
-    const l = all.find(x => x.id === decodeURIComponent(m[1]));
+    if (!m){ if (dlg.open){ pushed = false; dlg.close(); } return; }
+    let id;
+    try { id = decodeURIComponent(m[1]); } catch (e) { return; }
+    const l = all.find(x => x.id === id);
     if (l) openItem(l, true);
   }
   fromHash();
   window.addEventListener("hashchange", fromHash);
+  window.addEventListener("popstate", fromHash);
 
   /* 오늘 영업 안내 (서울 시간 기준)
      3~11월: 월~토 10:00-18:00, 일요일·공휴일 휴무
      12~2월(원룸 시즌): 매일 10:00-18:00, 설 연휴만 휴무
-     공휴일 목록은 매년 새로 넣어야 합니다. */
+     공휴일 목록은 매년 새로 넣어야 합니다(목록이 없는 해에는 "공휴일 영업은 전화로 확인" 안내가 붙음). */
   const OPEN = 10, CLOSE = 18;
   const HOLIDAYS = {
-    "2026-01-01":"신정","2026-02-16":"설날","2026-02-17":"설날","2026-02-18":"설날","2026-03-02":"삼일절 대체공휴일",
+    "2026-01-01":"신정","2026-03-01":"삼일절","2026-05-24":"부처님오신날","2026-06-06":"현충일","2026-08-15":"광복절","2026-10-03":"개천절","2026-02-16":"설날","2026-02-17":"설날","2026-02-18":"설날","2026-03-02":"삼일절 대체공휴일",
     "2026-05-01":"노동절","2026-05-05":"어린이날","2026-05-25":"부처님오신날 대체공휴일","2026-06-03":"지방선거일","2026-07-17":"제헌절","2026-08-17":"광복절 대체공휴일",
     "2026-09-24":"추석","2026-09-25":"추석","2026-09-26":"추석","2026-10-05":"개천절 대체공휴일","2026-10-09":"한글날","2026-12-25":"성탄절",
-    "2027-01-01":"신정","2027-02-06":"설날","2027-02-07":"설날","2027-02-08":"설날","2027-02-09":"설날 대체공휴일","2027-03-01":"삼일절",
+    "2027-01-01":"신정","2027-06-06":"현충일","2027-08-15":"광복절","2027-10-03":"개천절","2027-12-25":"성탄절","2027-02-06":"설날","2027-02-07":"설날","2027-02-08":"설날","2027-02-09":"설날 대체공휴일","2027-03-01":"삼일절",
     "2027-05-01":"노동절","2027-05-03":"노동절 대체공휴일","2027-05-05":"어린이날","2027-05-13":"부처님오신날","2027-07-17":"제헌절","2027-07-19":"제헌절 대체공휴일","2027-08-16":"광복절 대체공휴일","2027-09-14":"추석","2027-09-15":"추석","2027-09-16":"추석",
     "2027-10-04":"개천절 대체공휴일","2027-10-09":"한글날","2027-10-11":"한글날 대체공휴일","2027-12-27":"성탄절 대체공휴일"
   };
@@ -634,6 +652,7 @@ dialog::backdrop{background:rgba(10,16,30,.62)}
     } else if (nowH >= OPEN && nowH < CLOSE){
       stateEl.innerHTML = `<span class="dot on"></span>지금 영업 중`;
       subEl.textContent = `오늘 ${range} · 방문 전 전화 주시면 더 빠릅니다`;
+      if (!Object.keys(HOLIDAYS).some(k => k.startsWith(t.key.slice(0,4)))) subEl.textContent += " · 공휴일 영업은 전화로 확인해 주세요";
     } else if (nowH < OPEN){
       stateEl.innerHTML = `<span class="dot"></span>오늘 ${OPEN}:00 오픈`;
       subEl.textContent = `영업시간 ${range}`;
