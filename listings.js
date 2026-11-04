@@ -14,6 +14,44 @@
    ========================================================= */
 window.LISTINGS = [
   {
+    "id": "jangchung-oneroom-3",
+    "status": "공개",
+    "cat": "원룸·투룸",
+    "title": "동대입구역 도보5분 풀옵션 원룸",
+    "loc": "중구 장충동2가",
+    "jibun": "193-86",
+    "deal": "월세",
+    "deposit": 500,
+    "rent": 50,
+    "fee": "3만원 (공용관리비, 수도 포함)",
+    "area": 16.52,
+    "areaNote": "임대 부분 (호실 중 일부)",
+    "floor": "4층",
+    "totalFloor": "5층",
+    "rooms": "방 1개 (오픈형)",
+    "baths": "욕실 1개",
+    "dir": "남향 (안방 기준)",
+    "approval": "1998년 6월 2일",
+    "use": "공동주택",
+    "parking": "불가",
+    "violation": false,
+    "movein": "즉시 입주",
+    "options": "벽걸이 에어컨, 침대, 책상, 옷장, 신발장, 냉장고, 세탁기, 싱크대, 인덕션",
+    "tags": [
+      "동대입구역 도보 5분",
+      "풀옵션"
+    ],
+    "desc": "동대입구역 도보5분, 동대중문 도보2분 거리\n인근에 편의점, 빨래방 등 편의 시설이 많고, 동국대, 지하철 등도 가까워서\n동대생 또는 지하철 3호선 이용하는 직장인분들께 추천 드립니다.",
+    "photos": [
+      "listings/jangchung-oneroom-3-1.jpg",
+      "listings/jangchung-oneroom-3-2.jpg",
+      "listings/jangchung-oneroom-3-3.jpg",
+      "listings/jangchung-oneroom-3-4.jpg",
+      "listings/jangchung-oneroom-3-5.jpg"
+    ],
+    "updated": "2026-11-04"
+  },
+  {
     "id": "jangchung-office-10f",
     "status": "공개",
     "cat": "사무실",
