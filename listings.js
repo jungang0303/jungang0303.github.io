@@ -21,7 +21,7 @@ window.LISTINGS = [
     "loc": "중구 묵정동",
     "jibun": "28-15",
     "deal": "월세",
-    "deposit": 1000,
+    "deposit": 1200,
     "rent": 110,
     "fee": "5만원 (주차 1대 이용 시 15만원)",
     "area": 107.1,
