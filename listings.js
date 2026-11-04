@@ -14,6 +14,44 @@
    ========================================================= */
 window.LISTINGS = [
   {
+    "id": "mukjeong-office-b1",
+    "status": "공개",
+    "cat": "사무실",
+    "title": "묵정동 지층 32평 사무실·창고 (전용 107㎡)",
+    "loc": "중구 묵정동",
+    "jibun": "28-15",
+    "deal": "월세",
+    "deposit": 1000,
+    "rent": 110,
+    "fee": "5만원 (주차 1대 이용 시 15만원)",
+    "area": 107.1,
+    "areaNote": "지하층 전체",
+    "floor": "지하 1층",
+    "totalFloor": "지상 3층, 지하 1층",
+    "dir": "서향 (주된 출입구 기준)",
+    "approval": "1985년 8월 21일",
+    "use": "제1종 근린생활시설 (소매점)",
+    "parking": "1대 가능 (이용 시 관리비 월 15만원)",
+    "violation": false,
+    "movein": "즉시 입주 가능",
+    "options": "실내 전용 화장실, 환기 설비",
+    "tags": [
+      "사무실·창고",
+      "전용 화장실",
+      "환기 설비"
+    ],
+    "desc": "묵정동 퇴계로48길 건물 지하층 전체를 임대합니다. 전용면적 107.1㎡(약 32평)입니다.\n기둥 외에는 넓게 트여 있어 사무실이나 창고 용도로 쓰기 좋습니다.\n환기 설비가 되어 있고, 실내에 전용 화장실이 있습니다.\n관리비는 월 5만원이며, 주차(1대) 이용 시 관리비는 월 15만원입니다.\n현재 즉시 입주 가능합니다.",
+    "photos": [
+      "listings/mukjeong-office-b1-1.jpg",
+      "listings/mukjeong-office-b1-2.jpg",
+      "listings/mukjeong-office-b1-3.jpg",
+      "listings/mukjeong-office-b1-4.jpg",
+      "listings/mukjeong-office-b1-5.jpg",
+      "listings/mukjeong-office-b1-6.jpg"
+    ],
+    "updated": "2026-11-04"
+  },
+  {
     "id": "jangchung-oneroom-3",
     "status": "공개",
     "cat": "원룸·투룸",
