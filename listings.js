@@ -14,6 +14,50 @@
    ========================================================= */
 window.LISTINGS = [
   {
+    "id": "jangchung-office-10f",
+    "status": "공개",
+    "cat": "사무실",
+    "title": "퇴계로 아도라타워 10층 통층, 조망 좋은 다용도 공간 (전용 151평)",
+    "loc": "중구 장충동2가",
+    "jibun": "173-2",
+    "deal": "월세",
+    "deposit": 18000,
+    "rent": 1800,
+    "fee": "약 198.2만원 (예상, 전기·수도 등 사용료 별도)",
+    "area": 499.64,
+    "areaNote": "계약면적 728.01㎡ (220평)",
+    "floor": "10층",
+    "totalFloor": "지상 11층, 지하 5층",
+    "dir": "북향 (주된 출입구 기준)",
+    "approval": "2009년 7월 31일",
+    "use": "체력단련장 (업무시설로 용도변경 진행 중)",
+    "parking": "50평당 1대 무료 (건물 전체 47대)",
+    "violation": false,
+    "movein": "즉시 입주 가능",
+    "options": "천장형 에어컨, 탕비실, 내부 남녀 화장실 2개, 엘리베이터 2대",
+    "tags": [
+      "10층 통층",
+      "탁 트인 조망",
+      "다용도 가능"
+    ],
+    "desc": "퇴계로 대로변 아도라타워 10층 한 층 전체를 임대합니다. 전용면적 499.64㎡(151평), 계약면적 728.01㎡(220평)입니다.\n기둥 외에는 막힌 곳 없이 넓게 트여 있고, 창이 길게 이어져 있어 채광과 외부 조망이 좋습니다.\n사무실, 병원, 헬스장은 물론 조망 좋은 레스토랑 등 다양한 용도로 활용할 수 있습니다. (업종에 따라 용도변경이 필요할 수 있습니다.)\n건축물대장상 용도는 체력단련장이며, 현재 업무시설로 용도변경을 진행하고 있습니다.\n호실 안에 탕비실과 남녀 분리 화장실이 있고, 천장형 에어컨이 설치되어 있습니다.\n현재 공실로 즉시 입주 가능합니다.\n월세 1,800만원은 부가세 별도이고, 관리비는 월 약 198.2만원(예상)이며 전기·수도 등 사용료는 별도입니다.\n주차는 50평당 1대 무료이며, 건물 내 자주식 주차장(건물 전체 47대)과 엘리베이터 2대가 있습니다.",
+    "photos": [
+      "listings/jangchung-office-10f-1.jpg",
+      "listings/jangchung-office-10f-2.jpg",
+      "listings/jangchung-office-10f-3.jpg",
+      "listings/jangchung-office-10f-4.jpg",
+      "listings/jangchung-office-10f-5.jpg",
+      "listings/jangchung-office-10f-6.jpg",
+      "listings/jangchung-office-10f-7.jpg",
+      "listings/jangchung-office-10f-8.jpg",
+      "listings/jangchung-office-10f-9.jpg",
+      "listings/jangchung-office-10f-10.jpg",
+      "listings/jangchung-office-10f-11.jpg",
+      "listings/jangchung-office-10f-12.jpg"
+    ],
+    "updated": "2026-11-04"
+  },
+  {
     "id": "jangchung-shop-1f",
     "status": "공개",
     "cat": "상가·건물",
