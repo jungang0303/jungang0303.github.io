@@ -14,6 +14,84 @@
    ========================================================= */
 window.LISTINGS = [
   {
+    "id": "jangchung-oneroom-4",
+    "status": "공개",
+    "cat": "원룸·투룸",
+    "title": "대로변에 위치한 넓은 원룸",
+    "loc": "중구 장충동2가",
+    "jibun": "174-1",
+    "deal": "월세",
+    "deposit": 500,
+    "rent": 70,
+    "fee": "7만원 (공용관리비, 수도, 인터넷 포함)",
+    "area": 27,
+    "floor": "5층",
+    "totalFloor": "5층",
+    "rooms": "방 1개 (오픈형)",
+    "baths": "욕실 1개",
+    "dir": "동향 (안방 기준)",
+    "approval": "2003년 6월 23일",
+    "use": "제2종근린생활시설",
+    "parking": "불가",
+    "violation": false,
+    "movein": "즉시 입주",
+    "options": "벽걸이 에어컨, 침대, 신발장, 냉장고, 세탁기, 싱크대, 인덕션, 전자레인지 / 개별난방",
+    "tags": [
+      "대로변 위치",
+      "즉시 입주"
+    ],
+    "desc": "동국대, CJ제일제당 모두 도보 가능한 넓은 사이즈의 원룸매물입니다.\n버스정류장과 동대문역사문화공원역 그리고 동대입구역까지도 모두 도보 가능해서 대중교통 이용하기도 편리하구요, 창이 양옆으로 크게 있어 창을 한쪽만 열어도 답답함 없이 시원하네요!\n집 앞에 바로 대로변이 있어 밤길도 무섭지 않구요, 인근에 초등학교가 있어서 경찰차도 수시로 다니기때문에 치안걱정 없는 위치 입니다.",
+    "photos": [
+      "listings/jangchung-oneroom-4-1.jpg",
+      "listings/jangchung-oneroom-4-2.jpg",
+      "listings/jangchung-oneroom-4-3.jpg",
+      "listings/jangchung-oneroom-4-4.jpg",
+      "listings/jangchung-oneroom-4-5.jpg",
+      "listings/jangchung-oneroom-4-6.jpg",
+      "listings/jangchung-oneroom-4-7.jpg",
+      "listings/jangchung-oneroom-4-8.jpg",
+      "listings/jangchung-oneroom-4-9.jpg"
+    ],
+    "updated": "2026-11-14"
+  },
+  {
+    "id": "jangchung1-oneroom",
+    "status": "공개",
+    "cat": "원룸·투룸",
+    "title": "장충동 풀옵션 원룸",
+    "loc": "중구 장충동1가",
+    "jibun": "38-60",
+    "deal": "월세",
+    "deposit": 500,
+    "rent": 44,
+    "fee": "7만원 (수도, 인터넷 포함)",
+    "area": 13,
+    "floor": "2층",
+    "totalFloor": "3층",
+    "rooms": "방 1개 (오픈형)",
+    "baths": "욕실 1개",
+    "dir": "남향 (안방 기준)",
+    "approval": "2015년 5월 13일",
+    "use": "단독주택",
+    "parking": "불가",
+    "violation": false,
+    "movein": "2026년 11월 21일부터",
+    "options": "벽걸이 에어컨, 냉장고, 세탁기, 싱크대, 인덕션 / 개별난방",
+    "tags": [
+      "동대문역사문화공원역 도보 5분",
+      "풀옵션"
+    ],
+    "desc": "동대문역사문화공원역 도보 5분, 동대입구역 도보12분\n아담한 사이즈의 미니 풀옵션 원룸으로 짐이 많지 않은 분들께 추천 드립니다.\n동국대, 동대문쇼핑타운 모두 도보로 이동 가능한 위치 입니다.",
+    "photos": [
+      "listings/jangchung1-oneroom-1.jpg",
+      "listings/jangchung1-oneroom-2.jpg",
+      "listings/jangchung1-oneroom-3.jpg",
+      "listings/jangchung1-oneroom-4.jpg",
+      "listings/jangchung1-oneroom-5.jpg"
+    ],
+    "updated": "2026-11-14"
+  },
+  {
     "id": "mukjeong-office-b1",
     "status": "공개",
     "cat": "사무실",
@@ -167,44 +245,6 @@ window.LISTINGS = [
       "listings/jangchung-shop-1f-3.jpg"
     ],
     "updated": "2026-11-04"
-  },
-  {
-    "id": "mukjeong-threeroom-2f",
-    "status": "공개",
-    "cat": "원룸·투룸",
-    "title": "단독주택 2층 쓰리룸",
-    "loc": "중구 묵정동",
-    "jibun": "28-25",
-    "deal": "월세",
-    "deposit": 1000,
-    "rent": 95,
-    "fee": "없음 (수도요금은 집주인 세대와 안분 납부)",
-    "area": 49.58,
-    "floor": "2층",
-    "totalFloor": "2층",
-    "rooms": "방 3개 (분리형)",
-    "baths": "욕실 1개",
-    "dir": "서향 (안방 기준)",
-    "approval": "1974년 7월 10일",
-    "use": "단독주택",
-    "parking": "불가",
-    "violation": false,
-    "movein": "즉시 입주",
-    "options": "벽걸이 에어컨(거실), 냉장고, 세탁기, 가스레인지",
-    "tags": [
-      "동대후문·충무초 인근",
-      "2층 전체 단독 사용"
-    ],
-    "desc": "*단기임대 및 공유숙박업은 불가능 합니다.\n동대후문 충무초 인근에 위치한 단독주택2층 3룸 월세\n레트로 감성의 오래된 단독주택 2층 전체 단독 사용\n옵션: 냉장고,세탁기, 에어컨(거실) 등\n별도의 관리비는 없으며 수도요금은 집주인세대와 안분하여 납부 합니다.\n현재 공실로 즉시 입주 가능 합니다.",
-    "photos": [
-      "listings/mukjeong-threeroom-2f-1.jpg",
-      "listings/mukjeong-threeroom-2f-2.jpg",
-      "listings/mukjeong-threeroom-2f-3.jpg",
-      "listings/mukjeong-threeroom-2f-4.jpg",
-      "listings/mukjeong-threeroom-2f-5.jpg",
-      "listings/mukjeong-threeroom-2f-6.jpg"
-    ],
-    "updated": "2026-11-03"
   },
   {
     "id": "euljiro4-officetel-sale",
