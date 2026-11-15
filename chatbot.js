@@ -30,17 +30,17 @@
       loc: "<b>서울 중구 퇴계로 264, 1층 107호</b><br>충무초등학교 정문 앞, 노란 간판입니다.<br><br>충무로역(3·4호선) 1번 출구<br>동대문역사문화공원역(2·4·5호선) 5번·6번 출구",
       visit: "방문 전에 전화나 문자로 원하시는 조건(지역, 예산, 입주 날짜)을 알려 주시면 맞는 매물을 미리 준비해 두겠습니다.<br><br>지금 사람이 살고 있는 집은 미리 약속을 잡은 뒤에 보실 수 있습니다.",
       docs: "<b>계약하실 때 준비물</b><br>· 신분증<br>· 계약금 (계좌이체 가능)<br><br>본인 대신 다른 사람이 계약하는 경우에는 위임장 등 서류가 더 필요합니다. 미리 문의해 주세요.",
-      fee: "중개보수는 법에서 정한 상한 요율 이내에서 받습니다.<br>매물을 고르시면 상한 금액을 바로 계산해 드립니다.",
+      fee: "중개보수는 법정 요율에 따라 받습니다.<br>매물을 고르시면 바로 계산해 드립니다.",
       pickFeeCat: "어떤 종류의 매물인가요?", pickFee: "중개보수가 궁금한 매물을 골라 주세요.", feeOther: "다른 매물 계산",
       F: {
-        base: "거래금액", rule: "적용 기준", max: "중개보수 상한", upTo: "최대 ", vat: v => `부가세 포함 ${v}`,
+        base: "거래금액", rule: "적용 기준", max: "중개보수 상한", upTo: "", vat: v => `부가세 포함 ${v}`,
         won: n => `${n.toLocaleString("ko-KR")}원`, man: n => manKo(n),
         sale: v => `매매가 ${v}`, jeonse: v => `전세 보증금 ${v}`,
         rent: (d, r, m, total) => `보증금 ${d} + 월세 ${r} × ${m} = ${total}`,
         x70: "×100으로 합하면 5천만원 미만이라 ×70을 적용합니다.",
-        house: (sale, rate, cap) => `주택 ${sale ? "매매" : "임대차"} ${rate}${cap ? `, 한도 ${cap}` : ""} (서울시 조례)`,
+        house: (sale, rate) => `주택 ${sale ? "매매" : "임대차"} ${rate}`,
         officetel: (sale, rate) => `주거용 오피스텔 ${sale ? "매매" : "임대차"} ${rate}`,
-        other: "주택 외(상가·사무실·창고 등) 0.9% 이내에서 협의",
+        other: "주택 외(상가·사무실·창고 등) 0.9%",
         notes: "· 임대인과 임차인(매도인과 매수인)이 각각 내는 금액입니다.<br>· 부가가치세 10%는 별도입니다.",
         ask: "가격 문의 매물이라 계산할 수 없습니다. 전화나 문자로 문의해 주세요."
       },
@@ -63,17 +63,17 @@
       loc: "<b>首尔市中区退溪路264，1层107号</b><br>（서울 중구 퇴계로 264, 1층 107호）<br>位于忠武小学正门对面，黄色招牌。<br><br>忠武路站（3·4号线）1号出口<br>东大门历史文化公园站（2·4·5号线）5号·6号出口",
       guide: "<b>月租（월세）</b>：先交一笔押金（보증금），之后每月交房租。退租时押金退还。<br><br><b>全租（전세）</b>：交一大笔押金，不用交月租，合同到期后押金全额退还。<br><br><b>管理费（관리비）</b>：每月另交的楼宇管理费用，与房租分开。电费、燃气费等一般另外按用量缴纳。<br><br>具体包含的项目每套房源不同，请查看房源详情或咨询我们。",
       docs: "<b>签约时请准备</b><br>· 护照，以及外国人登录证（如已办理）<br>· 定金（可以银行转账）<br><br>如由他人代为签约，需要委托书等额外材料，请提前咨询。",
-      fee: "中介费按照法定上限费率以内收取。<br>选择房源后，可以马上为您计算上限金额。",
+      fee: "中介费按照法定费率收取。<br>选择房源后，可以马上为您计算。",
       pickFeeCat: "是哪种房源？", pickFee: "请选择想了解中介费的房源。", feeOther: "计算其他房源",
       F: {
-        base: "交易金额", rule: "适用标准", max: "中介费上限", upTo: "最高 ", vat: v => `含增值税 ${v}`,
+        base: "交易金额", rule: "适用标准", max: "中介费上限", upTo: "", vat: v => `含增值税 ${v}`,
         won: n => `${n.toLocaleString("en-US")}韩元`, man: n => manZh(n),
         sale: v => `售价 ${v}`, jeonse: v => `全租押金 ${v}`,
         rent: (d, r, m, total) => `押金 ${d} + 月租 ${r} × ${m} = ${total}`,
         x70: "按×100计算不足5,000万韩元，因此按×70计算。",
-        house: (sale, rate, cap) => `住宅${sale ? "买卖" : "租赁"} ${rate}${cap ? `，上限${cap}` : ""}（首尔市条例）`,
+        house: (sale, rate) => `住宅${sale ? "买卖" : "租赁"} ${rate}`,
         officetel: (sale, rate) => `住宅用商住公寓${sale ? "买卖" : "租赁"} ${rate}`,
-        other: "非住宅（商铺·办公室·仓库等）0.9%以内协商",
+        other: "非住宅（商铺·办公室·仓库等）0.9%",
         notes: "· 房东和租客（卖方和买方）各自支付。<br>· 不含10%增值税。",
         ask: "此房源价格面议，无法计算。请通过微信或电话咨询。"
       },
@@ -96,17 +96,17 @@
       loc: "<b>1F #107, 264 Toegye-ro, Jung-gu, Seoul</b><br>(서울 중구 퇴계로 264, 1층 107호)<br>Opposite the main gate of Chungmu Elementary School, yellow sign.<br><br>Chungmuro Station (Lines 3, 4) Exit 1<br>Dongdaemun History &amp; Culture Park Station (Lines 2, 4, 5) Exits 5, 6",
       guide: "<b>Wolse (monthly rent)</b>: you pay a deposit (bojeunggeum) up front, then rent every month. The deposit is returned when you move out.<br><br><b>Jeonse</b>: you pay one large deposit and no monthly rent. The full deposit is returned at the end of the lease.<br><br><b>Maintenance fee (gwallibi)</b>: a monthly building fee paid separately from rent. Electricity and gas are usually billed separately by usage.<br><br>What is included differs by property. Please check each listing or ask us.",
       docs: "<b>Please bring</b><br>· Passport, and your Alien Registration Card if you have one<br>· Contract deposit (bank transfer is fine)<br><br>If someone else signs on your behalf, extra documents such as a power of attorney are needed. Please ask us in advance.",
-      fee: "Our brokerage fee is within the legal maximum rate.<br>Choose a listing and we will calculate the maximum fee right away.",
+      fee: "Our brokerage fee follows the legal rates.<br>Choose a listing and we will calculate it right away.",
       pickFeeCat: "What type of property?", pickFee: "Choose a listing to see its brokerage fee.", feeOther: "Another listing",
       F: {
-        base: "Transaction value", rule: "Rate", max: "Maximum brokerage fee", upTo: "up to ", vat: v => `${v} incl. VAT`,
+        base: "Transaction value", rule: "Rate", max: "Maximum brokerage fee", upTo: "", vat: v => `${v} incl. VAT`,
         won: n => `₩${n.toLocaleString("en-US")}`, man: n => `₩${(n*10000).toLocaleString("en-US")}`,
         sale: v => `Sale price ${v}`, jeonse: v => `Jeonse deposit ${v}`,
         rent: (d, r, m, total) => `Deposit ${d} + rent ${r} × ${m} = ${total}`,
         x70: "×70 applies because the ×100 total is under ₩50,000,000.",
-        house: (sale, rate, cap) => `Housing ${sale ? "sale" : "lease"}: ${rate}${cap ? `, capped at ${cap}` : ""} (Seoul ordinance)`,
+        house: (sale, rate) => `Housing ${sale ? "sale" : "lease"}: ${rate}`,
         officetel: (sale, rate) => `Residential officetel ${sale ? "sale" : "lease"}: ${rate}`,
-        other: "Non-housing (shops, offices, warehouses): up to 0.9%, negotiable",
+        other: "Non-housing (shops, offices, warehouses): 0.9%",
         notes: "· Each side (landlord and tenant, or seller and buyer) pays separately.<br>· 10% VAT is not included.",
         ask: "This listing's price is on request, so we cannot calculate it. Please contact us."
       },
@@ -139,7 +139,7 @@
     if (type === "house") { const row = (sale ? HOUSE_SALE : HOUSE_LEASE).find(r => base < r[0]); rate = row[1]; cap = row[2] || null; }
     else if (type === "officetel") rate = sale ? .005 : .004;
     else rate = .009;
-    let won = Math.floor(base * 10000 * rate);
+    let won = Math.floor(Math.round(base * 10000) * Math.round(rate * 1000) / 1000);  /* 소수점 오차 방지 (0.9% -> 9/1000) */
     if (cap && won > cap * 10000) won = cap * 10000;
     return { sale, base, mult, dep, rent, type, rate, cap, won, jeonse: l.deal === "전세" };
   }
@@ -150,7 +150,7 @@
     const pct = r => `${+(r*100).toFixed(1)}%`;
     let baseTxt = c.sale ? F.sale(F.man(c.base)) : c.jeonse ? F.jeonse(F.man(c.base)) : F.rent(F.man(c.dep), F.man(c.rent), c.mult, F.man(c.base));
     if (c.mult === 70) baseTxt += `<br><small>${F.x70}</small>`;
-    const rule = c.type === "house" ? F.house(c.sale, pct(c.rate), c.cap ? F.won(c.cap*10000) : "") : c.type === "officetel" ? F.officetel(c.sale, pct(c.rate)) : F.other;
+    const rule = c.type === "house" ? F.house(c.sale, pct(c.rate)) : c.type === "officetel" ? F.officetel(c.sale, pct(c.rate)) : F.other;
     return head + `${F.base}: ${baseTxt}<br>${F.rule}: ${rule}<br><br><b>${F.max}: ${c.type === "other" ? F.upTo : ""}${F.won(c.won)}</b><br><small>(${F.vat(F.won(Math.round(c.won * 1.1)))})</small><br><br><small>${F.notes}</small>`;
   }
 
