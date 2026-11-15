@@ -10,6 +10,7 @@
    - 공동주택 임대 매물은 호수를 쓰지 않습니다 (지번·층까지만).
    - areaLabel: 전용면적이 아닌 경우 표시 이름 (예: "연면적", "면적"). 없으면 "전용".
    - lease: 매매 매물의 현재 임대 현황. violation: true/false, 확인 안 된 경우 항목 생략.
+   - zh / en: 중국어·영어 화면용 제목(title)·태그(tags)·설명(desc)·면적 비고(areaNote). 매물을 올릴 때 함께 넣습니다.
    - 이 파일은 매물 관리 스킬로 수정합니다.
    ========================================================= */
 window.LISTINGS = [
@@ -52,7 +53,23 @@ window.LISTINGS = [
       "listings/jangchung-oneroom-4-8.jpg",
       "listings/jangchung-oneroom-4-9.jpg"
     ],
-    "updated": "2026-11-14"
+    "updated": "2026-11-14",
+    "zh": {
+      "title": "大路边宽敞一室",
+      "tags": [
+        "临大路",
+        "可立即入住"
+      ],
+      "desc": "宽敞的一室户，步行可到东国大学和CJ第一制糖。\n公交车站、东大门历史文化公园站和东大入口站都可步行到达，出行方便。房间两侧都有大窗户，只开一边也很通透凉爽！\n门前就是大路，走夜路也不害怕；附近有小学，警车经常巡逻，治安让人放心。"
+    },
+    "en": {
+      "title": "Spacious studio on a main road",
+      "tags": [
+        "On a main road",
+        "Available now"
+      ],
+      "desc": "A spacious studio within walking distance of Dongguk University and CJ CheilJedang.\nThe bus stop, Dongdaemun History & Culture Park Station and Dongguk Univ. Station are all walkable, so getting around is easy. Large windows on both sides keep it airy even with just one open.\nIt faces a main road, so walking home at night feels safe, and with an elementary school nearby, police cars patrol often."
+    }
   },
   {
     "id": "jangchung1-oneroom",
@@ -89,7 +106,23 @@ window.LISTINGS = [
       "listings/jangchung1-oneroom-4.jpg",
       "listings/jangchung1-oneroom-5.jpg"
     ],
-    "updated": "2026-11-14"
+    "updated": "2026-11-14",
+    "zh": {
+      "title": "奖忠洞全配置一室",
+      "tags": [
+        "东大门历史文化公园站步行5分钟",
+        "全配置"
+      ],
+      "desc": "东大门历史文化公园站步行5分钟，东大入口站步行12分钟\n小巧的全配置迷你一室，推荐给行李不多的租客。\n东国大学、东大门购物区都可步行前往。"
+    },
+    "en": {
+      "title": "Fully furnished studio in Jangchung-dong",
+      "tags": [
+        "5 min to Dongdaemun History & Culture Park Stn",
+        "Fully furnished"
+      ],
+      "desc": "5 min walk to Dongdaemun History & Culture Park Station, 12 min to Dongguk Univ. Station.\nA compact, fully furnished mini studio, ideal if you don't have much luggage.\nDongguk University and the Dongdaemun shopping area are both within walking distance."
+    }
   },
   {
     "id": "mukjeong-office-b1",
@@ -127,7 +160,25 @@ window.LISTINGS = [
       "listings/mukjeong-office-b1-5.jpg",
       "listings/mukjeong-office-b1-6.jpg"
     ],
-    "updated": "2026-11-04"
+    "updated": "2026-11-04",
+    "zh": {
+      "title": "墨井洞地下层32坪办公室·仓库（专用107㎡）",
+      "tags": [
+        "办公室·仓库",
+        "专用卫生间",
+        "通风设备"
+      ],
+      "desc": "出租墨井洞退溪路48街大楼的整个地下层，专用面积107.1㎡（约32坪）。\n除柱子外空间开阔，适合用作办公室或仓库。\n配有通风设备，室内有专用卫生间。\n管理费每月5万韩元，使用1个停车位时管理费为每月15万韩元。\n目前可立即入住。"
+    },
+    "en": {
+      "title": "Mukjeong-dong basement office / storage, 32 py (107㎡)",
+      "tags": [
+        "Office / storage",
+        "Private restroom",
+        "Ventilation"
+      ],
+      "desc": "The entire basement floor of a building on Toegye-ro 48-gil, Mukjeong-dong. Exclusive area 107.1㎡ (about 32 pyeong).\nApart from the columns it is wide open, good for an office or storage.\nVentilation is installed and there is a private restroom inside.\nMaintenance fee is ₩50,000/month, or ₩150,000/month if you use 1 parking space.\nAvailable now."
+    }
   },
   {
     "id": "jangchung-oneroom-3",
@@ -165,7 +216,23 @@ window.LISTINGS = [
       "listings/jangchung-oneroom-3-4.jpg",
       "listings/jangchung-oneroom-3-5.jpg"
     ],
-    "updated": "2026-11-04"
+    "updated": "2026-11-04",
+    "zh": {
+      "title": "东大入口站步行5分钟 全配置一室",
+      "tags": [
+        "东大入口站步行5分钟",
+        "全配置"
+      ],
+      "desc": "东大入口站步行5分钟，东国大学中门步行2分钟\n附近便利店、自助洗衣店等生活设施多，离东国大学和地铁都很近，\n推荐给东国大学学生或乘坐地铁3号线的上班族。"
+    },
+    "en": {
+      "title": "Fully furnished studio, 5 min to Dongguk Univ. Stn",
+      "tags": [
+        "5 min to Dongguk Univ. Stn",
+        "Fully furnished"
+      ],
+      "desc": "5 min walk to Dongguk Univ. Station, 2 min to Dongguk University's middle gate.\nConvenience stores, laundromats and other amenities are nearby, and the university and subway are close.\nRecommended for Dongguk students or commuters on Line 3."
+    }
   },
   {
     "id": "jangchung-office-10f",
@@ -209,7 +276,27 @@ window.LISTINGS = [
       "listings/jangchung-office-10f-11.jpg",
       "listings/jangchung-office-10f-12.jpg"
     ],
-    "updated": "2026-11-04"
+    "updated": "2026-11-04",
+    "zh": {
+      "title": "退溪路Adora Tower 10层整层，视野好的多用途空间（专用151坪）",
+      "tags": [
+        "10层整层",
+        "视野开阔",
+        "多种用途"
+      ],
+      "areaNote": "合同面积728.01㎡（220坪）",
+      "desc": "出租退溪路大路边Adora Tower（아도라타워）10层整层。专用面积499.64㎡（151坪），合同面积728.01㎡（220坪）。\n除柱子外没有遮挡，空间开阔，窗户连成一排，采光和外部视野都很好。\n可用作办公室、医院、健身房，也可以开视野好的餐厅等多种用途。（根据业种可能需要办理用途变更。）\n建筑物台账上的用途为健身设施，目前正在办理变更为业务设施。\n室内有茶水间和男女分开的卫生间，并安装了吸顶式空调。\n目前空置，可立即入住。\n月租1,800万韩元不含增值税，管理费预计每月约198.2万韩元，电费、水费等使用费另计。\n每50坪免费提供1个停车位，大楼内有自走式停车场（整栋共47个车位）和2部电梯。"
+    },
+    "en": {
+      "title": "Adora Tower, whole 10th floor with great views (151 py exclusive)",
+      "tags": [
+        "Whole 10th floor",
+        "Open views",
+        "Flexible use"
+      ],
+      "areaNote": "Contract area 728.01㎡ (220 py)",
+      "desc": "The entire 10th floor of Adora Tower (아도라타워) on Toegye-ro. Exclusive area 499.64㎡ (151 pyeong), contract area 728.01㎡ (220 pyeong).\nApart from the columns it is fully open, with a long run of windows for good light and outside views.\nSuitable for an office, clinic, gym, or a restaurant with a view, among other uses. (Some businesses may require a change of building use.)\nThe registered building use is a fitness facility, and a change to business facility is in progress.\nThere is a pantry, separate men's and women's restrooms, and ceiling air conditioning.\nCurrently vacant and available now.\nRent of ₩18,000,000/month excludes VAT. The maintenance fee is estimated at about ₩1,982,000/month; electricity, water and other utilities are extra.\nOne free parking space per 50 pyeong. The building has a self-park garage (47 spaces) and 2 elevators."
+    }
   },
   {
     "id": "jangchung-shop-1f",
@@ -244,7 +331,27 @@ window.LISTINGS = [
       "listings/jangchung-shop-1f-2.jpg",
       "listings/jangchung-shop-1f-3.jpg"
     ],
-    "updated": "2026-11-04"
+    "updated": "2026-11-04",
+    "zh": {
+      "title": "退溪路大路边1层玻璃门面大型商铺（专用76坪）",
+      "tags": [
+        "无权利金",
+        "退溪路大路边",
+        "1层2个铺位整体出租"
+      ],
+      "areaNote": "合同面积366.67㎡（111坪）· 2个铺位整体出租",
+      "desc": "退溪路大路边Adora Tower（아도라타워）1层商铺。2个铺位整体出租，专用面积251.64㎡（76坪），合同面积366.67㎡（111坪）。\n面向退溪路的一面全是玻璃，展示效果好。\n无权利金（转让费），目前空置，可立即入住。\n月租1,100万韩元不含增值税，管理费预计每月约99.8万韩元，电费、水费等使用费另计。\n大楼内有自走式停车场（整栋共47个车位）和2部电梯。"
+    },
+    "en": {
+      "title": "Large glass-front ground-floor shop on Toegye-ro (76 py exclusive)",
+      "tags": [
+        "No key money",
+        "Main road frontage",
+        "2 units leased together"
+      ],
+      "areaNote": "Contract area 366.67㎡ (111 py) · 2 units leased together",
+      "desc": "Ground-floor retail in Adora Tower (아도라타워) on Toegye-ro. Two units are leased together: exclusive area 251.64㎡ (76 pyeong), contract area 366.67㎡ (111 pyeong).\nThe full glass front facing Toegye-ro gives great visibility.\nNo key money (premium). Currently vacant and available now.\nRent of ₩11,000,000/month excludes VAT. The maintenance fee is estimated at about ₩998,000/month; electricity, water and other utilities are extra.\nThe building has a self-park garage (47 spaces) and 2 elevators."
+    }
   },
   {
     "id": "euljiro4-officetel-sale",
@@ -282,7 +389,21 @@ window.LISTINGS = [
       "listings/euljiro4-officetel-sale-6.jpg",
       "listings/euljiro4-officetel-sale-7.jpg"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-10-31",
+    "zh": {
+      "title": "乙支路4街站步行1分钟 两室商住公寓",
+      "tags": [
+        "乙支路4街站步行1分钟"
+      ],
+      "desc": "距乙支路4街站7号出口步行1分钟，紧邻地铁站的两室商住公寓。目前租约为全租2亿6,500万韩元。实际入住可从2027年8月1日起。看房请提前预约时间。"
+    },
+    "en": {
+      "title": "Two-room officetel, 1 min to Euljiro 4-ga Stn",
+      "tags": [
+        "1 min to Euljiro 4-ga Stn"
+      ],
+      "desc": "A two-room officetel just a 1-minute walk from Exit 7 of Euljiro 4-ga Station. It is currently leased on jeonse for ₩265,000,000. Move-in is possible from August 1, 2027. Viewings by appointment only."
+    }
   },
   {
     "id": "jangchung-oneroom-2",
@@ -319,7 +440,23 @@ window.LISTINGS = [
       "listings/jangchung-oneroom-2-4.jpg",
       "listings/jangchung-oneroom-2-5.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "东大侧门步行2分钟 全配置一室",
+      "tags": [
+        "东大侧门步行2分钟",
+        "全配置"
+      ],
+      "desc": "距东国大学侧门步行2分钟的全配置一室。建筑物台账上标为1层，但因地势原因实际是2层的高度。靠近东国大学体育馆侧门，推荐给东国大学学生。"
+    },
+    "en": {
+      "title": "Fully furnished studio, 2 min to Dongguk side gate",
+      "tags": [
+        "2 min to Dongguk side gate",
+        "Fully furnished"
+      ],
+      "desc": "A fully furnished studio 2 minutes from Dongguk University's side gate. It is listed as the 1st floor in the building register, but because of the slope it is actually at 2nd-floor height. Close to the gym-side gate, recommended for Dongguk students."
+    }
   },
   {
     "id": "pildong-tworoom-sale-3f",
@@ -360,7 +497,23 @@ window.LISTINGS = [
       "listings/pildong-tworoom-sale-3f-7.jpg",
       "listings/pildong-tworoom-sale-3f-8.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "忠武路站步行6分钟 全配置两室公寓",
+      "tags": [
+        "忠武路站步行6分钟",
+        "东国大学步行1分钟"
+      ],
+      "desc": "距忠武路站步行6分钟、东国大学步行1分钟的全配置两室公寓（多户住宅）。位于东国大学宿舍正前方，租房需求旺盛，全年不用担心空置。看房请提前几天预约。"
+    },
+    "en": {
+      "title": "Fully furnished 2-room villa, 6 min to Chungmuro Stn",
+      "tags": [
+        "6 min to Chungmuro Stn",
+        "1 min to Dongguk Univ."
+      ],
+      "desc": "A fully furnished two-room villa (multi-unit house) 6 minutes from Chungmuro Station and 1 minute from Dongguk University. Right in front of the Dongguk dormitory, rental demand is strong and vacancy is not a worry year-round. Please book a viewing a few days in advance."
+    }
   },
   {
     "id": "mukjeong-oneroom-sale",
@@ -399,7 +552,23 @@ window.LISTINGS = [
       "listings/mukjeong-oneroom-sale-5.jpg",
       "listings/mukjeong-oneroom-sale-6.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "东国大学一室 出售",
+      "tags": [
+        "东国大学后门步行3分钟",
+        "朝南"
+      ],
+      "desc": "距东国大学后门步行3分钟、东大入口站步行5分钟的多户住宅一室。深受东国大学学生欢迎的楼。全年无空置，租金收益率6%，土地份额9.5㎡。推荐作为收租型投资。虽然没有电梯，但有正南向大窗和东侧窗户两扇窗，从上午到下午采光和通风都很好。"
+    },
+    "en": {
+      "title": "Dongguk University studio for sale",
+      "tags": [
+        "3 min to Dongguk back gate",
+        "South-facing"
+      ],
+      "desc": "A studio in a multi-unit building, 3 minutes from Dongguk University's back gate and 5 minutes from Dongguk Univ. Station. The building is popular with Dongguk students. No vacancy year-round, 6% rental yield, land share 9.5㎡. Recommended as a rental investment. There is no elevator, but with a large south-facing window and an east window, it gets good light and ventilation from morning to afternoon."
+    }
   },
   {
     "id": "pildong-tworoom-sale-b",
@@ -439,7 +608,23 @@ window.LISTINGS = [
       "listings/pildong-tworoom-sale-b-6.jpg",
       "listings/pildong-tworoom-sale-b-7.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "忠武路站步行6分钟 全配置两室公寓",
+      "tags": [
+        "忠武路站步行6分钟",
+        "东国大学步行1分钟"
+      ],
+      "desc": "距忠武路站步行6分钟、东国大学步行1分钟的全配置两室公寓（多户住宅）。位于东国大学宿舍正前方，租房需求旺盛，全年不用担心空置。看房请提前几天预约。"
+    },
+    "en": {
+      "title": "Fully furnished 2-room villa, 6 min to Chungmuro Stn",
+      "tags": [
+        "6 min to Chungmuro Stn",
+        "1 min to Dongguk Univ."
+      ],
+      "desc": "A fully furnished two-room villa (multi-unit house) 6 minutes from Chungmuro Station and 1 minute from Dongguk University. Right in front of the Dongguk dormitory, rental demand is strong and vacancy is not a worry year-round. Please book a viewing a few days in advance."
+    }
   },
   {
     "id": "ojang-oneroom-sale",
@@ -478,7 +663,21 @@ window.LISTINGS = [
       "listings/ojang-oneroom-sale-7.jpg",
       "listings/ojang-oneroom-sale-8.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "五壮洞十字路口 全配置一室",
+      "tags": [
+        "东大门历史文化公园站步行3分钟"
+      ],
+      "desc": "距东大门历史文化公园站步行3分钟，位于五壮洞十字路口商业区的全配置一室。推荐作为收租型投资。管理费为委托管理公司通知的每月固定金额，包含电梯检修费、楼宇清洁费、化粪池、管理服务费、网费、有线电视费及其他楼宇管理费（电气、消防）等。"
+    },
+    "en": {
+      "title": "Fully furnished studio at the Ojang-dong intersection",
+      "tags": [
+        "3 min to Dongdaemun History & Culture Park Stn"
+      ],
+      "desc": "A fully furnished studio in the commercial area at the Ojang-dong intersection, 3 minutes from Dongdaemun History & Culture Park Station. Recommended as a rental investment. The maintenance fee is a fixed monthly amount set by the management company and covers elevator inspection, building cleaning, septic tank, management services, internet, cable TV and other building costs (electrical, fire safety)."
+    }
   },
   {
     "id": "mukjeong-shop-1f",
@@ -511,7 +710,25 @@ window.LISTINGS = [
       "listings/mukjeong-shop-1f-4.jpg",
       "listings/mukjeong-shop-1f-5.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "1层转角商铺 仓库·多用途店面",
+      "tags": [
+        "东国大学后门步行1分钟",
+        "1层"
+      ],
+      "areaNote": "实际使用面积约85㎡",
+      "desc": "距东国大学后门步行1分钟的1层商铺。位于新建的东国大学后门现代Hillstate停车场一侧，实际使用面积约85㎡。"
+    },
+    "en": {
+      "title": "Ground-floor corner shop, storage / multi-use",
+      "tags": [
+        "1 min to Dongguk back gate",
+        "Ground floor"
+      ],
+      "areaNote": "Usable area approx. 85㎡",
+      "desc": "A ground-floor shop 1 minute from Dongguk University's back gate, beside the parking lot of the newly built Hyundai Hillstate. Usable area is about 85㎡."
+    }
   },
   {
     "id": "pildong-office-sale",
@@ -548,7 +765,23 @@ window.LISTINGS = [
       "listings/pildong-office-sale-6.jpg",
       "listings/pildong-office-sale-7.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "忠武路站步行5分钟 办公室出售",
+      "tags": [
+        "忠武路站步行5分钟",
+        "单独产权"
+      ],
+      "desc": "距忠武路站步行5分钟，已单独产权登记的办公室出售。是2层共4间办公室中的一间。目前租约押金2,000万韩元、月租120万韩元（不含增值税），收益率5.14%，推荐作为收租型投资。土地份额19.22㎡，目前周边土地市价为每坪6,000万韩元左右。"
+    },
+    "en": {
+      "title": "Office for sale, 5 min to Chungmuro Stn",
+      "tags": [
+        "5 min to Chungmuro Stn",
+        "Separately titled unit"
+      ],
+      "desc": "A separately titled office unit for sale, 5 minutes from Chungmuro Station. It is one of four office units on the 2nd floor. Currently leased at a ₩20,000,000 deposit and ₩1,200,000/month rent (excl. VAT), a 5.14% yield, recommended as a rental investment. Land share is 19.22㎡, and nearby land currently trades at around ₩60,000,000 per pyeong."
+    }
   },
   {
     "id": "mukjeong-storage-b1",
@@ -580,7 +813,23 @@ window.LISTINGS = [
     ],
     "updated": "2026-10-30",
     "approval": "1984년 1월 12일",
-    "approvalLabel": "허가일자"
+    "approvalLabel": "허가일자",
+    "zh": {
+      "title": "地下仓库",
+      "tags": [
+        "仅限仓库用途"
+      ],
+      "areaNote": "约120㎡（整个地下层）",
+      "desc": "位于大使酒店（Ambassador Hotel）后街的地下仓库（约120㎡）。仅可作纯仓库用途，不能作为营业场所。价格比周边行情便宜。不可停车，但可以介绍隔壁楼的月租车位。"
+    },
+    "en": {
+      "title": "Basement storage",
+      "tags": [
+        "Storage only"
+      ],
+      "areaNote": "Approx. 120㎡ (entire basement)",
+      "desc": "A basement storage space (about 120㎡) on the street behind the Ambassador Hotel. Storage use only; it cannot be used as business premises. Priced below nearby market rates. No parking, but monthly parking in the building next door can be arranged."
+    }
   },
   {
     "id": "pildong-tworoom-sale-2f",
@@ -621,7 +870,23 @@ window.LISTINGS = [
       "listings/pildong-tworoom-sale-2f-7.jpg",
       "listings/pildong-tworoom-sale-2f-8.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "忠武路站步行6分钟 两室公寓",
+      "tags": [
+        "忠武路站步行6分钟",
+        "东国大学步行1分钟"
+      ],
+      "desc": "距忠武路站步行6分钟、东国大学步行1分钟的两室公寓（多户住宅）。位于东国大学正前方，深受东国大学学生欢迎；距地铁3号线、4号线忠武路站步行6分钟，上班族需求也很多，竣工后从未空置过。实际入住可从2028年7月起。"
+    },
+    "en": {
+      "title": "2-room villa, 6 min to Chungmuro Stn",
+      "tags": [
+        "6 min to Chungmuro Stn",
+        "1 min to Dongguk Univ."
+      ],
+      "desc": "A two-room villa (multi-unit house) 6 minutes from Chungmuro Station and 1 minute from Dongguk University. Right in front of the university, it is popular with Dongguk students, and being 6 minutes from Chungmuro Station (Lines 3 and 4) there is strong demand from office workers too. It has never been vacant since completion. Move-in is possible from July 2028."
+    }
   },
   {
     "id": "mukjeong-storage-b1-2",
@@ -650,7 +915,23 @@ window.LISTINGS = [
     ],
     "desc": "묵정동 충무초등학교 뒤편 상가주택 지하 창고입니다. 지층 면적은 127.7㎡입니다. 1층 바닥이 관통되어 있어 별도 공사 없이 지하와 연결해 활용할 수 있는 구조입니다. 상가주택이라 공장 등 소음이 발생하는 업종은 임대가 불가하며, 지하 창고 또는 사무실 용도로만 사용 가능합니다. 현재 공실입니다.",
     "photos": [],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "地下仓库兼办公室",
+      "tags": [
+        "忠武小学后方",
+        "目前空置"
+      ],
+      "desc": "墨井洞忠武小学后方商住楼的地下仓库。地下层面积127.7㎡。1层地面已打通，无需另外施工即可与地下连通使用。因是商住楼，工厂等会产生噪音的业种不能出租，只能用作地下仓库或办公室。目前空置。"
+    },
+    "en": {
+      "title": "Basement storage / office",
+      "tags": [
+        "Behind Chungmu Elementary",
+        "Vacant now"
+      ],
+      "desc": "A basement storage space in a mixed-use building behind Chungmu Elementary School, Mukjeong-dong. The basement area is 127.7㎡. The ground-floor slab is already open, so the space connects to the basement without extra construction. Because it is a mixed-use residential building, noisy businesses such as factories are not allowed; storage or office use only. Currently vacant."
+    }
   },
   {
     "id": "mukjeong-building-sale",
@@ -683,7 +964,23 @@ window.LISTINGS = [
       "listings/mukjeong-building-sale-3.jpg",
       "listings/mukjeong-building-sale-4.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "退溪路5街大路边商业楼",
+      "tags": [
+        "退溪路大路边",
+        "整栋"
+      ],
+      "desc": "退溪路5街摩托车街大路边的商业楼。地上3层，1层是印刷厂，2层目前空置，3层是跆拳道馆。推荐给想开摩托车店或印刷厂的客户。（1层实际使用纵深约20米）"
+    },
+    "en": {
+      "title": "Commercial building on Toegye-ro 5-ga",
+      "tags": [
+        "Main road frontage",
+        "Entire building"
+      ],
+      "desc": "A commercial building on the main road of the Toegye-ro 5-ga motorcycle street. Three floors above ground: a print shop on 1F, 2F currently vacant, and a taekwondo studio on 3F. Recommended for a motorcycle shop or printing business. (1F usable depth about 20 m)"
+    }
   },
   {
     "id": "mukjeong-shop-whole",
@@ -720,7 +1017,25 @@ window.LISTINGS = [
       "listings/mukjeong-shop-whole-6.jpg",
       "listings/mukjeong-shop-whole-7.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "东国大学后门 1·2·3层整体出租",
+      "tags": [
+        "东国大学后门步行1分钟",
+        "无权利金"
+      ],
+      "areaNote": "建筑物台账专用面积：1层34.41㎡，2层21.8㎡，3层4.98㎡",
+      "desc": "距东国大学后门步行1分钟，商铺1层、2层、3层整体出租。之前是咖啡店，没有权利金等其他附加费用。建筑物台账上的专用面积为1层34.41㎡、2层21.8㎡、3层4.98㎡，实际使用面积比这稍大。如用作其他用途，内部设施将全部拆除。"
+    },
+    "en": {
+      "title": "Dongguk back gate, 1F to 3F leased together",
+      "tags": [
+        "1 min to Dongguk back gate",
+        "No key money"
+      ],
+      "areaNote": "Registered exclusive area: 1F 34.41㎡, 2F 21.8㎡, 3F 4.98㎡",
+      "desc": "Floors 1, 2 and 3 of a shop building leased together, 1 minute from Dongguk University's back gate. Previously a coffee shop, with no key money or other extra costs. The registered exclusive areas are 34.41㎡ (1F), 21.8㎡ (2F) and 4.98㎡ (3F); the actual usable space is a bit larger. If used for another purpose, all interior fixtures will be removed."
+    }
   },
   {
     "id": "jangchung-office-1f",
@@ -754,7 +1069,23 @@ window.LISTINGS = [
       "listings/jangchung-office-1f-4.jpg",
       "listings/jangchung-office-1f-5.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "1层仓库兼办公室",
+      "tags": [
+        "1层",
+        "可立即入住"
+      ],
+      "desc": "位于退溪路5街忠武小学附近窄巷内的1层仓库兼办公室。推荐用作小型工作坊、工作室或办公室。内部空间已分隔，每个空间都有空调。目前空置，可立即入住。"
+    },
+    "en": {
+      "title": "Ground-floor storage / office",
+      "tags": [
+        "Ground floor",
+        "Available now"
+      ],
+      "desc": "A ground-floor storage/office space on a narrow side street near Chungmu Elementary School, Toegye-ro 5-ga. Recommended for a small workshop, studio or office. The interior is divided into separate rooms, each with its own air conditioner. Currently vacant and available now."
+    }
   },
   {
     "id": "mukjeong-factory-sale",
@@ -783,7 +1114,23 @@ window.LISTINGS = [
     ],
     "desc": "퇴계로5가 묵정동 인쇄골목 내 창고, 공장 자리입니다. 네모반듯한 대지 위에 2층 건물(목조)이며, 현 임차인 명도는 협의 사항입니다.",
     "photos": [],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "退溪路5街印刷胡同内 工厂、仓库",
+      "tags": [
+        "印刷胡同",
+        "整栋"
+      ],
+      "desc": "退溪路5街墨井洞印刷胡同内的仓库、工厂用地。方正的土地上建有2层建筑（木结构），现租户的腾退事宜可协商。"
+    },
+    "en": {
+      "title": "Factory / warehouse in the Toegye-ro 5-ga printing alley",
+      "tags": [
+        "Printing alley",
+        "Entire building"
+      ],
+      "desc": "A warehouse/factory site in the printing alley of Mukjeong-dong, Toegye-ro 5-ga. A two-storey wooden building on a regular, square plot. Vacating by the current tenant is negotiable."
+    }
   },
   {
     "id": "pildong-oneroom-sale",
@@ -822,7 +1169,23 @@ window.LISTINGS = [
       "listings/pildong-oneroom-sale-5.jpg",
       "listings/pildong-oneroom-sale-6.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "忠武路站步行5分钟 全配置一室出售",
+      "tags": [
+        "忠武路站步行5分钟",
+        "专用露台"
+      ],
+      "desc": "距忠武路站步行5分钟、东国大学步行3分钟的全配置一室。窗外约4坪的专用露台是最大优点。目前业主自住，入住日期可协商。土地份额12㎡。看房前请提前预约。"
+    },
+    "en": {
+      "title": "Fully furnished studio for sale, 5 min to Chungmuro Stn",
+      "tags": [
+        "5 min to Chungmuro Stn",
+        "Private terrace"
+      ],
+      "desc": "A fully furnished studio 5 minutes from Chungmuro Station and 3 minutes from Dongguk University. Its best feature is a private terrace of about 4 pyeong outside the window. The owner currently lives here, so the move-in date is negotiable. Land share is 12㎡. Please book an appointment before visiting."
+    }
   },
   {
     "id": "pildong-tworoom-sale-5f",
@@ -864,6 +1227,22 @@ window.LISTINGS = [
       "listings/pildong-tworoom-sale-5f-8.jpg",
       "listings/pildong-tworoom-sale-5f-9.jpg"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-30",
+    "zh": {
+      "title": "忠武路站步行6分钟 全配置两室出售",
+      "tags": [
+        "忠武路站步行6分钟",
+        "东国大学步行1分钟"
+      ],
+      "desc": "距忠武路站步行6分钟、东国大学步行1分钟的全配置两室公寓。位于东国大学宿舍正前方的小区型多户住宅，实际使用面积约40㎡。深受东国大学学生和3·4号线上班族欢迎，目前由东国大学学生居住。推荐作为收租型投资。"
+    },
+    "en": {
+      "title": "Fully furnished 2-room villa for sale, 6 min to Chungmuro Stn",
+      "tags": [
+        "6 min to Chungmuro Stn",
+        "1 min to Dongguk Univ."
+      ],
+      "desc": "A fully furnished two-room villa 6 minutes from Chungmuro Station and 1 minute from Dongguk University. It is in a complex-style multi-unit building right in front of the Dongguk dormitory, with about 40㎡ of usable space. Popular with Dongguk students and commuters on Lines 3 and 4; currently occupied by a Dongguk student. Recommended as a rental investment."
+    }
   }
 ];
