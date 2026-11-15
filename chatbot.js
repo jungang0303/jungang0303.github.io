@@ -41,7 +41,7 @@
         house: (sale, rate, cap) => `주택 ${sale ? "매매" : "임대차"} ${rate}${cap ? `, 한도 ${cap}` : ""} (서울시 조례)`,
         officetel: (sale, rate) => `주거용 오피스텔 ${sale ? "매매" : "임대차"} ${rate}`,
         other: "주택 외(상가·사무실·창고 등) 0.9% 이내에서 협의",
-        notes: "· 법정 상한 금액이며, 이 안에서 협의해 정합니다.<br>· 임대인과 임차인(매도인과 매수인)이 각각 내는 금액입니다.<br>· 부가가치세 10%는 별도입니다.",
+        notes: "· 임대인과 임차인(매도인과 매수인)이 각각 내는 금액입니다.<br>· 부가가치세 10%는 별도입니다.",
         ask: "가격 문의 매물이라 계산할 수 없습니다. 전화나 문자로 문의해 주세요."
       },
       contact: "편하신 방법으로 연락 주세요.",
@@ -74,7 +74,7 @@
         house: (sale, rate, cap) => `住宅${sale ? "买卖" : "租赁"} ${rate}${cap ? `，上限${cap}` : ""}（首尔市条例）`,
         officetel: (sale, rate) => `住宅用商住公寓${sale ? "买卖" : "租赁"} ${rate}`,
         other: "非住宅（商铺·办公室·仓库等）0.9%以内协商",
-        notes: "· 这是法定上限，实际金额在此范围内协商。<br>· 房东和租客（卖方和买方）各自支付。<br>· 不含10%增值税。",
+        notes: "· 房东和租客（卖方和买方）各自支付。<br>· 不含10%增值税。",
         ask: "此房源价格面议，无法计算。请通过微信或电话咨询。"
       },
       contact: "请选择方便的联系方式。微信消息可以长按使用翻译功能，中文咨询也没问题。",
@@ -107,7 +107,7 @@
         house: (sale, rate, cap) => `Housing ${sale ? "sale" : "lease"}: ${rate}${cap ? `, capped at ${cap}` : ""} (Seoul ordinance)`,
         officetel: (sale, rate) => `Residential officetel ${sale ? "sale" : "lease"}: ${rate}`,
         other: "Non-housing (shops, offices, warehouses): up to 0.9%, negotiable",
-        notes: "· This is the legal maximum; the actual fee is agreed within it.<br>· Each side (landlord and tenant, or seller and buyer) pays separately.<br>· 10% VAT is not included.",
+        notes: "· Each side (landlord and tenant, or seller and buyer) pays separately.<br>· 10% VAT is not included.",
         ask: "This listing's price is on request, so we cannot calculate it. Please contact us."
       },
       contact: "Choose whichever way is easiest for you.",
