@@ -186,7 +186,8 @@
       "벽걸이 에어컨":"壁挂式空调", "천장형 에어컨":"吸顶式空调", "침대":"床", "책상":"书桌", "옷장":"衣柜", "신발장":"鞋柜",
       "냉장고":"冰箱", "세탁기":"洗衣机", "싱크대":"水槽", "인덕션":"电磁炉", "전자레인지":"微波炉", "가스레인지":"燃气灶",
       "엘리베이터":"电梯", "엘리베이터 2대":"电梯2部", "테라스":"露台", "베란다":"阳台", "개별난방":"独立供暖",
-      "실내 전용 화장실":"室内专用卫生间", "환기 설비":"通风设备", "탕비실":"茶水间", "내부 남녀 화장실 2개":"内部男女卫生间2个"
+      "실내 전용 화장실":"室内专用卫生间", "환기 설비":"通风设备", "탕비실":"茶水间", "내부 남녀 화장실 2개":"内部男女卫生间2个",
+      "인터폰":"对讲机", "CCTV":"监控摄像头", "현관보안":"门禁系统"
     },
     areaNote: { "임대 부분 (호실 중 일부)": "出租部分（房间的一部分）", "지하층 면적": "地下层面积", "지하층 전체": "整个地下层" },
     areaWord: { "공급":"供应面积", "계약면적":"合同面积", "대지":"土地" },
@@ -240,7 +241,8 @@
       "벽걸이 에어컨":"wall AC", "천장형 에어컨":"ceiling AC", "침대":"bed", "책상":"desk", "옷장":"wardrobe", "신발장":"shoe cabinet",
       "냉장고":"refrigerator", "세탁기":"washing machine", "싱크대":"sink", "인덕션":"induction cooktop", "전자레인지":"microwave", "가스레인지":"gas stove",
       "엘리베이터":"elevator", "엘리베이터 2대":"2 elevators", "테라스":"terrace", "베란다":"balcony", "개별난방":"individual heating",
-      "실내 전용 화장실":"private indoor restroom", "환기 설비":"ventilation", "탕비실":"pantry", "내부 남녀 화장실 2개":"2 restrooms inside (men's and women's)"
+      "실내 전용 화장실":"private indoor restroom", "환기 설비":"ventilation", "탕비실":"pantry", "내부 남녀 화장실 2개":"2 restrooms inside (men's and women's)",
+      "인터폰":"intercom", "CCTV":"CCTV", "현관보안":"entrance security lock"
     },
     areaNote: { "임대 부분 (호실 중 일부)": "Rented portion (part of the unit)", "지하층 면적": "Basement floor area", "지하층 전체": "Entire basement floor" },
     areaWord: { "공급":"Supply area", "계약면적":"Contract area", "대지":"Land" },
