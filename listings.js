@@ -1190,61 +1190,6 @@ window.LISTINGS = [
     }
   },
   {
-    "id": "pildong-oneroom-sale",
-    "status": "공개",
-    "cat": "원룸·투룸",
-    "title": "충무로역 도보5분 풀옵션 원룸 매매",
-    "loc": "중구 필동3가",
-    "jibun": "28-9",
-    "deal": "매매",
-    "deposit": 17500,
-    "fee": "6.5만원",
-    "lease": "소유자 거주 중",
-    "area": 19.98,
-    "areaNote": "공급 24.59㎡",
-    "floor": "6층",
-    "totalFloor": "6층",
-    "rooms": "방 1개",
-    "baths": "욕실 1개",
-    "dir": "북서향 (거실 기준)",
-    "approval": "2016년 8월 10일",
-    "use": "공동주택",
-    "parking": "건물 전체 15대",
-    "violation": false,
-    "movein": "2026년 11월 7일부터 (협의 가능)",
-    "options": "벽걸이 에어컨, 신발장, 냉장고, 세탁기, 싱크대, 인덕션, 엘리베이터, 테라스, 베란다",
-    "tags": [
-      "충무로역 도보 5분",
-      "전용 테라스"
-    ],
-    "desc": "충무로역 도보 5분, 동국대학교 도보 3분 거리 풀옵션 원룸입니다. 창문 너머로 4평 남짓한 전용 테라스가 장점인 매물입니다. 현재 소유주가 거주 중이라 입주일은 협의하시면 됩니다. 대지지분은 12㎡입니다. 방문 전 사전에 약속을 잡은 후 보실 수 있습니다.",
-    "photos": [
-      "listings/pildong-oneroom-sale-1.jpg",
-      "listings/pildong-oneroom-sale-2.jpg",
-      "listings/pildong-oneroom-sale-3.jpg",
-      "listings/pildong-oneroom-sale-4.jpg",
-      "listings/pildong-oneroom-sale-5.jpg",
-      "listings/pildong-oneroom-sale-6.jpg"
-    ],
-    "updated": "2026-10-30",
-    "zh": {
-      "title": "忠武路站步行5分钟 全配置一室出售",
-      "tags": [
-        "忠武路站步行5分钟",
-        "专用露台"
-      ],
-      "desc": "距忠武路站步行5分钟、东国大学步行3分钟的全配置一室。窗外约4坪的专用露台是最大优点。目前业主自住，入住日期可协商。土地份额12㎡。看房前请提前预约。"
-    },
-    "en": {
-      "title": "Fully furnished studio for sale, 5 min to Chungmuro Stn",
-      "tags": [
-        "5 min to Chungmuro Stn",
-        "Private terrace"
-      ],
-      "desc": "A fully furnished studio 5 minutes from Chungmuro Station and 3 minutes from Dongguk University. Its best feature is a private terrace of about 4 pyeong outside the window. The owner currently lives here, so the move-in date is negotiable. Land share is 12㎡. Please book an appointment before visiting."
-    }
-  },
-  {
     "id": "pildong-tworoom-sale-5f",
     "status": "공개",
     "cat": "빌라",
