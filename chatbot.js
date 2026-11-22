@@ -143,9 +143,9 @@
     if (cap && won > cap * 10000) won = cap * 10000;
     return { sale, base, mult, dep, rent, type, rate, cap, won, jeonse: l.deal === "전세" };
   }
-  function feeHtml(l){
+  function feeHtml(l, noHead){
     const F = S.F, c = calcFee(l);
-    const head = `<b>${esc(l.title)}</b><br>${esc(window.JASite ? window.JASite.priceText(l) : "")}<br><br>`;
+    const head = noHead ? "" : `<b>${esc(l.title)}</b><br>${esc(window.JASite ? window.JASite.priceText(l) : "")}<br><br>`;
     if (!c) return head + F.ask;
     const pct = r => `${+(r*100).toFixed(1)}%`;
     let baseTxt = c.sale ? F.sale(F.man(c.base)) : c.jeonse ? F.jeonse(F.man(c.base)) : F.rent(F.man(c.dep), F.man(c.rent), c.mult, F.man(c.base));
@@ -335,7 +335,11 @@
     tail();
   }
   /* 매물 상세 창의 '중개보수 계산' 버튼에서 호출 */
-  window.JAChat = { fee(id){ const l = (window.JASite && window.JASite.list || []).find(x => x.id === id); if (!l) return; open(); me(`${S.q.fee}: ${l.title}`); showFee(l); } };
+  window.JAChat = {
+    fee(id){ const l = (window.JASite && window.JASite.list || []).find(x => x.id === id); if (!l) return; open(); me(`${S.q.fee}: ${l.title}`); showFee(l); },
+    /* 매물 창 안에 바로 펼쳐 보여줄 계산 결과 (제목·가격 줄 없이) */
+    feeHtml(id){ const l = (window.JASite && window.JASite.list || []).find(x => x.id === id); return l ? feeHtml(l, true) : ""; }
+  };
 
   function open(){
     panel.hidden = false; fab.hidden = true;
