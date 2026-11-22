@@ -179,7 +179,7 @@
     lease: { "소유자 거주 중": "业主自住" },
     parking: {
       "불가": "不可停车", "1대 가능 (이용 시 관리비 월 15만원)": "可停1辆（使用时管理费每月15万韩元）",
-      "50평당 1대 무료 (건물 전체 47대)": "每50坪免费1个车位（整栋共47个车位）",
+      "50평당 1대 무료 (건물 전체 47대)": "每50坪免费1个车位（整栋共47个车位）", "1대 가능 (건물 전체 15대)": "可停1辆（整栋共15个车位）",
       "불가 (바로 옆 건물 월주차 알선 가능)": "不可停车（可介绍隔壁楼的月租车位）"
     },
     opt: {
@@ -234,7 +234,7 @@
     lease: { "소유자 거주 중": "Owner-occupied" },
     parking: {
       "불가": "Not available", "1대 가능 (이용 시 관리비 월 15만원)": "1 space (maintenance fee becomes ₩150,000/month)",
-      "50평당 1대 무료 (건물 전체 47대)": "1 free space per 50 pyeong (47 spaces in the building)",
+      "50평당 1대 무료 (건물 전체 47대)": "1 free space per 50 pyeong (47 spaces in the building)", "1대 가능 (건물 전체 15대)": "1 space available (15 spaces in the building)",
       "불가 (바로 옆 건물 월주차 알선 가능)": "Not available (monthly parking next door can be arranged)"
     },
     opt: {

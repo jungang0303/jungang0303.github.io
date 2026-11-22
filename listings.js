@@ -791,6 +791,7 @@ window.LISTINGS = [
     "loc": "중구 필동3가",
     "deal": "매매",
     "deposit": 30000,
+    "fee": "20만원",
     "lease": "보증금 2,000만원 / 월 120만원 (부가세 별도)",
     "area": 54.28,
     "areaNote": "계약면적 77.28㎡",
@@ -799,7 +800,7 @@ window.LISTINGS = [
     "dir": "남서향 (주된 출입구 기준)",
     "approval": "2016년 8월 10일",
     "use": "제2종 근린생활시설",
-    "parking": "건물 전체 15대",
+    "parking": "1대 가능 (건물 전체 15대)",
     "violation": false,
     "movein": "2027년 2월 22일부터",
     "options": "천장형 에어컨, 엘리베이터 / 개별난방",
@@ -817,7 +818,7 @@ window.LISTINGS = [
       "listings/pildong-office-sale-6.jpg",
       "listings/pildong-office-sale-7.jpg"
     ],
-    "updated": "2026-10-30",
+    "updated": "2026-11-22",
     "zh": {
       "title": "忠武路站步行5分钟 办公室出售",
       "tags": [
