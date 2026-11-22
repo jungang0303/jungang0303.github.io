@@ -172,7 +172,7 @@
     basis: { "안방":"主卧", "거실":"客厅", "주된 출입구":"主入口" },
     now: "可立即入住", vacant: "（目前空置）", nego: "（可协商）",
     paren: {
-      "공용관리비, 수도, 인터넷 포함": "含公共管理费、水费、网费", "수도, 인터넷 포함": "含水费、网费",
+      "공용관리비, 수도, 인터넷 포함": "含公共管理费、水费、网费", "건물 공용부분 청소비, 화장실 청소비, 주차관리비, 수도요금 포함": "含大楼公共区域清洁费、卫生间清洁费、停车管理费、水费", "수도, 인터넷 포함": "含水费、网费",
       "주차 1대 이용 시 15만원": "使用1个车位时为15万韩元", "공용관리비, 수도 포함": "含公共管理费、水费",
       "예상, 전기·수도 등 사용료 별도": "预估，电费、水费等使用费另计", "월 고정 관리비": "每月固定管理费"
     },
@@ -227,7 +227,7 @@
     basis: { "안방":"master bedroom", "거실":"living room", "주된 출입구":"main entrance" },
     now: "Available now", vacant: " (currently vacant)", nego: " (negotiable)",
     paren: {
-      "공용관리비, 수도, 인터넷 포함": "incl. common fees, water, internet", "수도, 인터넷 포함": "incl. water, internet",
+      "공용관리비, 수도, 인터넷 포함": "incl. common fees, water, internet", "건물 공용부분 청소비, 화장실 청소비, 주차관리비, 수도요금 포함": "incl. common area cleaning, restroom cleaning, parking management, water", "수도, 인터넷 포함": "incl. water, internet",
       "주차 1대 이용 시 15만원": "₩150,000 with 1 parking space", "공용관리비, 수도 포함": "incl. common fees, water",
       "예상, 전기·수도 등 사용료 별도": "estimated; electricity, water etc. extra", "월 고정 관리비": "fixed monthly fee"
     },
