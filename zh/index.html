@@ -264,6 +264,9 @@ dialog::backdrop{background:rgba(10,16,30,.62)}
 .dlg-actions .btn{flex:1 1 140px}
 .dlg-fee{display:block;background:none;border:0;padding:12px 0 0;margin:0;color:var(--gold-ink);font:700 15px var(--font);cursor:pointer;text-align:left}
 .dlg-fee:hover{text-decoration:underline}
+.dlg-feebox{margin-top:10px;background:#faf7f1;border:1px solid var(--line);border-left:3px solid var(--gold,#b8955a);border-radius:10px;padding:14px 16px;font-size:15px;line-height:1.65;color:var(--fg,#1d2433)}
+.dlg-feebox small{font-size:13px;color:var(--fg-muted)}
+.dlg-feebox b{color:var(--navy,#16223d)}
 .dlg-agent{margin-top:16px;font-size:13px;color:var(--fg-muted);border-top:1px solid var(--line);padding-top:12px}
 .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 18px;border-radius:999px;font-size:14px;z-index:60;opacity:0;transition:opacity .2s;pointer-events:none}
 .toast.show{opacity:1}
@@ -487,7 +490,8 @@ body{word-break:normal;line-break:strict}
       <a class="btn btn-wechat" href="#" data-wechat>微信咨询</a>
       <button class="btn btn-soft" type="button" id="dlgShare">分享房源</button>
     </div>
-    <button class="dlg-fee" type="button" id="dlgFee">计算此房源的中介费 ›</button>
+    <button class="dlg-fee" type="button" id="dlgFee" aria-expanded="false" aria-controls="dlgFeeBox">计算此房源的中介费 ›</button>
+    <div class="dlg-feebox" id="dlgFeeBox" hidden></div>
     <p class="dlg-agent">中央公认中介士事务所（중앙공인중개사사무소）· 代表公认中介士 金榮三（김영삼）· 登记号 공92220000-2247 · 서울 중구 퇴계로 264, 1층 107호 · 02-2265-0303</p>
   </div>
 </dialog>
@@ -589,7 +593,7 @@ const priceText = UI ? UI.priceText : l => !numOk(l.deposit) ? "가격 문의" :
   document.getElementById("dlgPh").addEventListener("touchend", e => { if (sx===null) return; const dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 40) showPhoto(gi + (dx<0?1:-1)); sx = null; });
 
   function openItem(l, fromHash){
-    cur = l;
+    cur = l; resetFee();
     document.getElementById("dlgCat").textContent = l.status==="거래완료" ? `${catName(l.cat)} · ${t("done","거래완료")}` : catName(l.cat);
     document.getElementById("dlgTitle").textContent = l.title;
     document.getElementById("dlgPrice").textContent = UI ? UI.priceHead(l) : !numOk(l.deposit) ? "가격 문의" : l.deal==="월세" ? (numOk(l.rent) ? `보증금 ${depoW(l.deposit)} / 월 ${won(l.rent)}만원` : `보증금 ${depoW(l.deposit)} / 월세 문의`) : `${l.deal} ${eok(l.deposit)}원`;
@@ -625,7 +629,17 @@ const priceText = UI ? UI.priceText : l => !numOk(l.deposit) ? "가격 문의" :
   });
   document.getElementById("dlgClose").addEventListener("click", closeItem);
   /* 상세 창의 '중개보수 계산' → 챗봇에서 바로 계산 */
-  document.getElementById("dlgFee").addEventListener("click", () => { const id = cur && cur.id; closeItem(); if (id && window.JAChat) window.JAChat.fee(id); });
+  /* 상세 창의 '중개보수 계산' → 매물 창 안에서 바로 결과를 펼쳐 보여줌 (매물 창은 닫지 않음) */
+  const feeBtn = document.getElementById("dlgFee"), feeBox = document.getElementById("dlgFeeBox");
+  function resetFee(){ const b = document.getElementById("dlgFeeBox"), f = document.getElementById("dlgFee"); if (!b || !f) return; b.hidden = true; b.innerHTML = ""; f.setAttribute("aria-expanded", "false"); }
+  feeBtn.addEventListener("click", () => {
+    const id = cur && cur.id; if (!id) return;
+    if (!feeBox.hidden) { resetFee(); return; }
+    const html = window.JAChat && window.JAChat.feeHtml ? window.JAChat.feeHtml(id) : "";
+    if (!html) { closeItem(); if (window.JAChat) window.JAChat.fee(id); return; }
+    feeBox.innerHTML = html; feeBox.hidden = false; feeBtn.setAttribute("aria-expanded", "true");
+    feeBox.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  });
   dlg.addEventListener("click", e => { if (e.target === dlg) closeItem(); });
   document.addEventListener("keydown", e => { if (!dlg.open) return; if (e.key==="ArrowLeft") showPhoto(gi-1); if (e.key==="ArrowRight") showPhoto(gi+1); });
 
