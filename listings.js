@@ -619,59 +619,6 @@ window.LISTINGS = [
     }
   },
   {
-    "id": "jangchung-oneroom-2",
-    "status": "공개",
-    "cat": "원룸·투룸",
-    "title": "동대쪽문 도보2분 풀옵션 원룸",
-    "loc": "중구 장충동2가",
-    "jibun": "193-161",
-    "deal": "월세",
-    "deposit": 500,
-    "rent": 47,
-    "fee": "3만원 (공용관리비, 수도 포함)",
-    "area": 16.52,
-    "areaNote": "임대 부분 (호실 중 일부)",
-    "floor": "1층",
-    "totalFloor": "4층",
-    "rooms": "방 1개 (오픈형)",
-    "baths": "욕실 1개",
-    "dir": "북향 (안방 기준)",
-    "approval": "2000년 4월 4일",
-    "use": "공동주택",
-    "parking": "불가",
-    "movein": "2026년 12월 21일부터",
-    "options": "벽걸이 에어컨, 냉장고, 세탁기, 인덕션, 신발장 / 개별난방",
-    "tags": [
-      "동대쪽문 도보 2분",
-      "풀옵션"
-    ],
-    "desc": "동대쪽문 도보 2분 거리 풀옵션 원룸입니다. 건축물대장에는 1층으로 표기되어 있지만 지역 특성상 실제로는 2층 높이입니다. 동국대 체육관 쪽문에서 가까워 동대생분들에게 추천드립니다.",
-    "photos": [
-      "listings/jangchung-oneroom-2-1.jpg",
-      "listings/jangchung-oneroom-2-2.jpg",
-      "listings/jangchung-oneroom-2-3.jpg",
-      "listings/jangchung-oneroom-2-4.jpg",
-      "listings/jangchung-oneroom-2-5.jpg"
-    ],
-    "updated": "2026-10-30",
-    "zh": {
-      "title": "东大侧门步行2分钟 全配置一室",
-      "tags": [
-        "东大侧门步行2分钟",
-        "全配置"
-      ],
-      "desc": "距东国大学侧门步行2分钟的全配置一室。建筑物台账上标为1层，但因地势原因实际是2层的高度。靠近东国大学体育馆侧门，推荐给东国大学学生。"
-    },
-    "en": {
-      "title": "Fully furnished studio, 2 min to Dongguk side gate",
-      "tags": [
-        "2 min to Dongguk side gate",
-        "Fully furnished"
-      ],
-      "desc": "A fully furnished studio 2 minutes from Dongguk University's side gate. It is listed as the 1st floor in the building register, but because of the slope it is actually at 2nd-floor height. Close to the gym-side gate, recommended for Dongguk students."
-    }
-  },
-  {
     "id": "pildong-tworoom-sale-3f",
     "status": "공개",
     "cat": "빌라",
