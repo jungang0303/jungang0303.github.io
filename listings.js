@@ -15,6 +15,165 @@
    ========================================================= */
 window.LISTINGS = [
   {
+    "id": "mukjeong-oneroom-2",
+    "status": "공개",
+    "cat": "원룸·투룸",
+    "title": "동대후문 주방분리형 원룸",
+    "loc": "중구 묵정동",
+    "jibun": "24-7",
+    "deal": "월세",
+    "deposit": 1000,
+    "rent": 69,
+    "fee": "9만원 (공용관리비, 수도, 인터넷 포함)",
+    "area": 19.83,
+    "floor": "2층",
+    "totalFloor": "지상 2층, 지하 1층",
+    "rooms": "방 1개 (오픈형)",
+    "baths": "욕실 1개",
+    "dir": "서향 (안방 기준)",
+    "approval": "1992년 6월 13일",
+    "use": "단독주택",
+    "parking": "불가",
+    "movein": "2027년 2월 19일부터",
+    "options": "벽걸이 에어컨, 옷장, 신발장, 냉장고, 세탁기, 인덕션, CCTV / 개별난방",
+    "tags": [
+      "동대 후문 도보 3분",
+      "주방 분리형"
+    ],
+    "desc": "동대 후문 도보3분 거리에 위치한 주방 분리형 풀옵션 원룸\n초등학교 인근에 위치해 있어 치안 걱정 없는 안심 원룸.\n동국대 또는 인근 CJ직장인분들께 추천 드립니다.",
+    "photos": [
+      "listings/mukjeong-oneroom-2-1.jpg",
+      "listings/mukjeong-oneroom-2-2.jpg",
+      "listings/mukjeong-oneroom-2-3.jpg",
+      "listings/mukjeong-oneroom-2-4.jpg",
+      "listings/mukjeong-oneroom-2-5.jpg"
+    ],
+    "updated": "2026-11-24",
+    "zh": {
+      "title": "东国大后门 厨房分离式一室",
+      "tags": [
+        "东国大后门步行3分钟",
+        "厨房分离式"
+      ],
+      "desc": "位于东国大后门步行3分钟处的厨房分离式全配置一室。\n靠近小学，治安放心的安心一室。\n推荐给东国大学生或附近CJ上班族。"
+    },
+    "en": {
+      "title": "Studio with separate kitchen near Dongguk Univ. back gate",
+      "tags": [
+        "3 min walk to Dongguk back gate",
+        "Separate kitchen"
+      ],
+      "desc": "Fully furnished studio with a separate kitchen, a 3-minute walk from the Dongguk University back gate.\nNear an elementary school, so the area feels safe.\nRecommended for Dongguk students and nearby CJ office workers."
+    }
+  },
+  {
+    "id": "mukjeong-oneroom-3",
+    "status": "공개",
+    "cat": "원룸·투룸",
+    "title": "동국대 후문 풀옵션 원룸",
+    "loc": "중구 묵정동",
+    "jibun": "24-7",
+    "deal": "월세",
+    "deposit": 1000,
+    "rent": 69,
+    "fee": "9만원 (공용관리비, 수도, 인터넷 포함)",
+    "area": 19.8,
+    "floor": "2층",
+    "totalFloor": "지상 2층, 지하 1층",
+    "rooms": "방 1개 (오픈형)",
+    "baths": "욕실 1개",
+    "dir": "남향 (안방 기준)",
+    "approval": "1992년 6월 13일",
+    "use": "단독주택",
+    "parking": "불가",
+    "movein": "2027년 2월 15일부터",
+    "options": "벽걸이 에어컨, 옷장, 신발장, 냉장고, 세탁기, 인덕션, CCTV / 개별난방",
+    "tags": [
+      "동대 후문 도보 5분",
+      "풀옵션"
+    ],
+    "desc": "동대후문 도보5분, 동대 중문 도보5분 거리 풀옵션 깨끗한 원룸 입니다.\n초등학교 인근에 위치해 있어 치안 걱정 없는 안심 원룸.\n동국대 또는 인근 CJ직장인분들께 추천 드립니다.",
+    "photos": [
+      "listings/mukjeong-oneroom-3-1.jpg",
+      "listings/mukjeong-oneroom-3-2.jpg",
+      "listings/mukjeong-oneroom-3-3.jpg",
+      "listings/mukjeong-oneroom-3-4.jpg",
+      "listings/mukjeong-oneroom-3-5.jpg",
+      "listings/mukjeong-oneroom-3-6.jpg"
+    ],
+    "updated": "2026-11-24",
+    "zh": {
+      "title": "东国大后门 全配置一室",
+      "tags": [
+        "东国大后门步行5分钟",
+        "全配置"
+      ],
+      "desc": "距东国大后门步行5分钟、中门步行5分钟的干净全配置一室。\n靠近小学，治安放心的安心一室。\n推荐给东国大学生或附近CJ上班族。"
+    },
+    "en": {
+      "title": "Fully furnished studio near Dongguk Univ. back gate",
+      "tags": [
+        "5 min walk to Dongguk back gate",
+        "Fully furnished"
+      ],
+      "desc": "Clean, fully furnished studio, a 5-minute walk from both the back gate and the middle gate of Dongguk University.\nNear an elementary school, so the area feels safe.\nRecommended for Dongguk students and nearby CJ office workers."
+    }
+  },
+  {
+    "id": "jangchung-oneroom-5",
+    "status": "공개",
+    "cat": "원룸·투룸",
+    "title": "동대 쪽문 도보 2분 반지하 원룸",
+    "loc": "중구 장충동2가",
+    "jibun": "193-161",
+    "deal": "월세",
+    "deposit": 500,
+    "rent": 45,
+    "fee": "없음",
+    "area": 17,
+    "areaNote": "임대 부분 (호실 중 일부)",
+    "floor": "반지층",
+    "totalFloor": "지상 5층, 지하 1층",
+    "rooms": "방 1개 (오픈형)",
+    "baths": "욕실 1개",
+    "dir": "북향 (안방 기준)",
+    "approval": "2000년 4월 4일",
+    "use": "공동주택",
+    "parking": "불가",
+    "violation": false,
+    "movein": "2027년 1월 17일부터",
+    "options": "벽걸이 에어컨, 신발장, 냉장고, 세탁기, 싱크대, 인덕션, 방범창 / 개별난방",
+    "tags": [
+      "동대 쪽문 도보 2분",
+      "풀옵션"
+    ],
+    "desc": "동대쪽문 도보2분 거리 1층 같은 반지하 풀옵션 원룸\n공부상 반지층 이지만 창문을 보면 실제 1층과 같은 구조 입니다.\n학교가 가까워 동대생분들에게 추천 드립니다.",
+    "photos": [
+      "listings/jangchung-oneroom-5-1.jpg",
+      "listings/jangchung-oneroom-5-2.jpg",
+      "listings/jangchung-oneroom-5-3.jpg",
+      "listings/jangchung-oneroom-5-4.jpg",
+      "listings/jangchung-oneroom-5-5.jpg"
+    ],
+    "updated": "2026-11-24",
+    "zh": {
+      "title": "东国大侧门步行2分钟 半地下一室",
+      "tags": [
+        "东国大侧门步行2分钟",
+        "全配置"
+      ],
+      "desc": "距东国大侧门步行2分钟、像1楼一样的半地下全配置一室。\n登记上为半地下层，但从窗户看实际与1楼结构相同。\n离学校近，推荐给东国大学生。"
+    },
+    "en": {
+      "title": "Semi-basement studio, 2 min to Dongguk side gate",
+      "tags": [
+        "2 min walk to Dongguk side gate",
+        "Fully furnished"
+      ],
+      "desc": "Fully furnished semi-basement studio, a 2-minute walk from the Dongguk side gate, that feels like a ground floor.\nIt is listed as semi-basement on paper, but the windows make it feel like a real 1st floor.\nClose to campus, recommended for Dongguk students."
+    }
+  },
+  {
     "id": "jangchung1-oneroom-2",
     "status": "공개",
     "cat": "원룸·투룸",

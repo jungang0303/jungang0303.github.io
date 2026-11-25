@@ -66,6 +66,7 @@
         return out;
       },
       fee(s){
+        if (s === "없음") return L === "zh" ? "无" : "None";
         const m = has(s) && s.match(/^(약 )?([\d.]+)만원(?: \((.+)\))?$/); if (!m) return s;
         const amt = L === "zh" ? `${m[1] ? "约" : ""}${m[2]}万韩元` : `${m[1] ? "approx. " : ""}₩${comma(Math.round(+m[2]*10000))}`;
         return m[3] ? `${amt}${L === "zh" ? `（${tr(m[3], D.paren)}）` : ` (${tr(m[3], D.paren)})`}` : amt;
@@ -167,7 +168,7 @@
       afterState: "今天已下班", afterSub: `下次营业 ${c.next} · 微信、短信随时可以留言`,
       noData: " · 节假日是否营业请电话确认"
     })[k],
-    floor: { "중층": "中层", "건물 전체": "整栋", "1층 (일부)": "1层（部分）", "지하 1층 (전부)": "地下1层（全部）", "1·2·3층 일부": "1·2·3层部分" },
+    floor: { "반지층": "半地下", "중층": "中层", "건물 전체": "整栋", "1층 (일부)": "1层（部分）", "지하 1층 (전부)": "地下1层（全部）", "1·2·3층 일부": "1·2·3层部分" },
     dir: { "동":"东", "서":"西", "남":"南", "북":"北", "남동":"东南", "남서":"西南", "북동":"东北", "북서":"西北" },
     basis: { "안방":"主卧", "거실":"客厅", "주된 출입구":"主入口" },
     now: "可立即入住", vacant: "（目前空置）", nego: "（可协商）",
@@ -184,7 +185,7 @@
     },
     opt: {
       "벽걸이 에어컨":"壁挂式空调", "천장형 에어컨":"吸顶式空调", "침대":"床", "책상":"书桌", "옷장":"衣柜", "신발장":"鞋柜",
-      "냉장고":"冰箱", "세탁기":"洗衣机", "싱크대":"水槽", "인덕션":"电磁炉", "전자레인지":"微波炉", "가스레인지":"燃气灶",
+      "냉장고":"冰箱", "세탁기":"洗衣机", "싱크대":"水槽", "방범창":"防盗窗", "인덕션":"电磁炉", "전자레인지":"微波炉", "가스레인지":"燃气灶",
       "엘리베이터":"电梯", "엘리베이터 2대":"电梯2部", "테라스":"露台", "베란다":"阳台", "개별난방":"独立供暖",
       "실내 전용 화장실":"室内专用卫生间", "환기 설비":"通风设备", "탕비실":"茶水间", "내부 남녀 화장실 2개":"内部男女卫生间2个",
       "인터폰":"对讲机", "CCTV":"监控摄像头", "현관보안":"门禁系统"
@@ -222,7 +223,7 @@
       afterState: "Closed for today", afterSub: `Next open: ${c.next} · Texts and messages are welcome anytime`,
       noData: " · Please call to confirm holiday hours"
     })[k],
-    floor: { "중층": "Middle floor", "건물 전체": "Entire building", "1층 (일부)": "1F (part)", "지하 1층 (전부)": "B1 (entire floor)", "1·2·3층 일부": "Parts of 1F, 2F, 3F" },
+    floor: { "반지층": "semi-basement", "중층": "Middle floor", "건물 전체": "Entire building", "1층 (일부)": "1F (part)", "지하 1층 (전부)": "B1 (entire floor)", "1·2·3층 일부": "Parts of 1F, 2F, 3F" },
     dir: { "동":"East", "서":"West", "남":"South", "북":"North", "남동":"Southeast", "남서":"Southwest", "북동":"Northeast", "북서":"Northwest" },
     basis: { "안방":"master bedroom", "거실":"living room", "주된 출입구":"main entrance" },
     now: "Available now", vacant: " (currently vacant)", nego: " (negotiable)",
@@ -239,7 +240,7 @@
     },
     opt: {
       "벽걸이 에어컨":"wall AC", "천장형 에어컨":"ceiling AC", "침대":"bed", "책상":"desk", "옷장":"wardrobe", "신발장":"shoe cabinet",
-      "냉장고":"refrigerator", "세탁기":"washing machine", "싱크대":"sink", "인덕션":"induction cooktop", "전자레인지":"microwave", "가스레인지":"gas stove",
+      "냉장고":"refrigerator", "세탁기":"washing machine", "싱크대":"sink", "방범창":"window security bars", "인덕션":"induction cooktop", "전자레인지":"microwave", "가스레인지":"gas stove",
       "엘리베이터":"elevator", "엘리베이터 2대":"2 elevators", "테라스":"terrace", "베란다":"balcony", "개별난방":"individual heating",
       "실내 전용 화장실":"private indoor restroom", "환기 설비":"ventilation", "탕비실":"pantry", "내부 남녀 화장실 2개":"2 restrooms inside (men's and women's)",
       "인터폰":"intercom", "CCTV":"CCTV", "현관보안":"entrance security lock"
