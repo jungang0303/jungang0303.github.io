@@ -34,6 +34,7 @@ window.LISTINGS = [
     "approval": "1970년 9월 10일",
     "use": "단독주택",
     "parking": "불가",
+    "violation": false,
     "movein": "2027년 2월 23일부터",
     "options": "벽걸이 에어컨, 침대, 옷장, 냉장고, 세탁기, 인덕션, 현관보안 / 개별난방",
     "tags": [
