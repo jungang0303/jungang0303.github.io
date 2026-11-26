@@ -15,6 +15,59 @@
    ========================================================= */
 window.LISTINGS = [
   {
+    "id": "jangchung-oneroom-6",
+    "status": "공개",
+    "cat": "원룸·투룸",
+    "title": "동대쪽문 분리형 원룸",
+    "loc": "중구 장충동2가",
+    "jibun": "193-337",
+    "deal": "월세",
+    "deposit": 1000,
+    "rent": 70,
+    "fee": "5만원 (수도, 인터넷 포함)",
+    "area": 26.44,
+    "floor": "3층",
+    "totalFloor": "3층",
+    "rooms": "방 1개 (분리형)",
+    "baths": "욕실 1개",
+    "dir": "동향 (거실 기준)",
+    "approval": "1970년 9월 10일",
+    "use": "단독주택",
+    "parking": "불가",
+    "movein": "2027년 2월 23일부터",
+    "options": "벽걸이 에어컨, 침대, 옷장, 냉장고, 세탁기, 인덕션, 현관보안 / 개별난방",
+    "tags": [
+      "동대 쪽문 도보 1분",
+      "분리형 1.5룸"
+    ],
+    "desc": "동대쪽문 도보1분, 동대입구역 도보5분 거리\n방과 거실이 분리된 1.5룸\n냉장고, 세탁기, 에어컨, 싱크대, 전기쿡탑 기본 옵션\n침실과 생활 공간이 분리된 원룸 찾으시는 학생분들에게 추천 합니다.",
+    "photos": [
+      "listings/jangchung-oneroom-6-1.jpg",
+      "listings/jangchung-oneroom-6-2.jpg",
+      "listings/jangchung-oneroom-6-3.jpg",
+      "listings/jangchung-oneroom-6-4.jpg",
+      "listings/jangchung-oneroom-6-5.jpg",
+      "listings/jangchung-oneroom-6-6.jpg"
+    ],
+    "updated": "2026-11-26",
+    "zh": {
+      "title": "东国大侧门 分离式一室",
+      "tags": [
+        "东国大侧门步行1分钟",
+        "分离式1.5室"
+      ],
+      "desc": "距东国大侧门步行1分钟，东大入口站步行5分钟\n卧室与客厅分离的1.5室\n冰箱、洗衣机、空调、水槽、电磁炉为基本配置\n推荐给想找卧室与生活空间分离的一室的学生。"
+    },
+    "en": {
+      "title": "Separate-room studio near Dongguk side gate",
+      "tags": [
+        "1 min walk to Dongguk side gate",
+        "1.5-room layout"
+      ],
+      "desc": "1-minute walk to the Dongguk side gate, 5 minutes to Dongguk Univ. Station.\nA 1.5-room unit with the bedroom separated from the living area.\nRefrigerator, washing machine, air conditioner, sink and electric cooktop included.\nRecommended for students who want a studio with separate sleeping and living spaces."
+    }
+  },
+  {
     "id": "mukjeong-oneroom-2",
     "status": "공개",
     "cat": "원룸·투룸",

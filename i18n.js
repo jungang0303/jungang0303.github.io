@@ -48,8 +48,9 @@
         return s;
       },
       rooms(s){
-        const m = has(s) && s.match(/^방 (\d+)개( \(오픈형\))?$/); if (!m) return s;
-        return L === "zh" ? `${m[1]}室${m[2] ? "（开放式）" : ""}` : `${m[1]} room${m[1] > 1 ? "s" : ""}${m[2] ? " (open-plan)" : ""}`;
+        const m = has(s) && s.match(/^방 (\d+)개(?: \((오픈형|분리형)\))?$/); if (!m) return s;
+        const zt = m[2] === "분리형" ? "（分离式）" : m[2] ? "（开放式）" : ""; const et = m[2] === "분리형" ? " (separate room)" : m[2] ? " (open-plan)" : "";
+        return L === "zh" ? `${m[1]}室${zt}` : `${m[1]} room${m[1] > 1 ? "s" : ""}${et}`;
       },
       baths(s){
         const m = has(s) && s.match(/^욕실 (\d+)개$/); if (!m) return s;
