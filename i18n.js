@@ -197,7 +197,7 @@
     use: {
       "단독주택":"独立住宅", "공동주택":"共同住宅（多户住宅）", "제1종 근린생활시설":"第一类近邻生活设施（商业）",
       "제1종 근린생활시설 (소매점)":"第一类近邻生活设施（零售）", "제2종 근린생활시설":"第二类近邻生活设施（商业）",
-      "제2종근린생활시설":"第二类近邻生活设施（商业）", "업무시설 (오피스텔)":"业务设施（商住公寓）",
+      "제2종근린생활시설":"第二类近邻生活设施（商业）", "업무시설 (오피스텔)":"业务设施（商住公寓）", "업무시설":"业务设施",
       "체력단련장 (업무시설로 용도변경 진행 중)":"健身设施（正在办理变更为业务设施）"
     }
   };
@@ -252,7 +252,7 @@
     use: {
       "단독주택":"Detached house", "공동주택":"Multi-unit housing", "제1종 근린생활시설":"Class 1 neighborhood facility (commercial)",
       "제1종 근린생활시설 (소매점)":"Class 1 neighborhood facility (retail)", "제2종 근린생활시설":"Class 2 neighborhood facility (commercial)",
-      "제2종근린생활시설":"Class 2 neighborhood facility (commercial)", "업무시설 (오피스텔)":"Business facility (officetel)",
+      "제2종근린생활시설":"Class 2 neighborhood facility (commercial)", "업무시설 (오피스텔)":"Business facility (officetel)", "업무시설":"Business facility",
       "체력단련장 (업무시설로 용도변경 진행 중)":"Fitness facility (change to business use in progress)"
     }
   };

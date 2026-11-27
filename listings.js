@@ -511,7 +511,7 @@ window.LISTINGS = [
     "loc": "중구 장충동2가",
     "deal": "월세",
     "deposit": 18000,
-    "rent": 1800,
+    "rent": 1700,
     "fee": "약 198.2만원 (예상, 전기·수도 등 사용료 별도)",
     "area": 499.64,
     "areaNote": "계약면적 728.01㎡ (220평)",
@@ -519,7 +519,7 @@ window.LISTINGS = [
     "totalFloor": "지상 11층, 지하 5층",
     "dir": "북향 (주된 출입구 기준)",
     "approval": "2009년 7월 31일",
-    "use": "체력단련장 (업무시설로 용도변경 진행 중)",
+    "use": "업무시설",
     "parking": "50평당 1대 무료 (건물 전체 47대)",
     "violation": false,
     "movein": "즉시 입주 가능",
@@ -529,7 +529,7 @@ window.LISTINGS = [
       "탁 트인 조망",
       "다용도 가능"
     ],
-    "desc": "퇴계로 대로변 아도라타워 10층 한 층 전체를 임대합니다. 전용면적 499.64㎡(151평), 계약면적 728.01㎡(220평)입니다.\n기둥 외에는 막힌 곳 없이 넓게 트여 있고, 창이 길게 이어져 있어 채광과 외부 조망이 좋습니다.\n사무실, 병원, 헬스장은 물론 조망 좋은 레스토랑 등 다양한 용도로 활용할 수 있습니다. (업종에 따라 용도변경이 필요할 수 있습니다.)\n건축물대장상 용도는 체력단련장이며, 현재 업무시설로 용도변경을 진행하고 있습니다.\n호실 안에 탕비실과 남녀 분리 화장실이 있고, 천장형 에어컨이 설치되어 있습니다.\n현재 공실로 즉시 입주 가능합니다.\n월세 1,800만원은 부가세 별도이고, 관리비는 월 약 198.2만원(예상)이며 전기·수도 등 사용료는 별도입니다.\n주차는 50평당 1대 무료이며, 건물 내 자주식 주차장(건물 전체 47대)과 엘리베이터 2대가 있습니다.",
+    "desc": "퇴계로 대로변 아도라타워 10층 한 층 전체를 임대합니다. 전용면적 499.64㎡(151평), 계약면적 728.01㎡(220평)입니다.\n기둥 외에는 막힌 곳 없이 넓게 트여 있고, 창이 길게 이어져 있어 채광과 외부 조망이 좋습니다.\n사무실, 병원, 헬스장은 물론 조망 좋은 레스토랑 등 다양한 용도로 활용할 수 있습니다. (업종에 따라 용도변경이 필요할 수 있습니다.)\n호실 안에 탕비실과 남녀 분리 화장실이 있고, 천장형 에어컨이 설치되어 있습니다.\n현재 공실로 즉시 입주 가능합니다.\n월세 1,700만원은 부가세 별도이고, 관리비는 월 약 198.2만원(예상)이며 전기·수도 등 사용료는 별도입니다.\n주차는 50평당 1대 무료이며, 건물 내 자주식 주차장(건물 전체 47대)과 엘리베이터 2대가 있습니다.",
     "photos": [
       "listings/jangchung-office-10f-1.jpg",
       "listings/jangchung-office-10f-2.jpg",
@@ -544,7 +544,7 @@ window.LISTINGS = [
       "listings/jangchung-office-10f-11.jpg",
       "listings/jangchung-office-10f-12.jpg"
     ],
-    "updated": "2026-11-04",
+    "updated": "2026-11-26",
     "zh": {
       "title": "退溪路Adora Tower 10层整层，视野好的多用途空间（专用151坪）",
       "tags": [
@@ -553,7 +553,7 @@ window.LISTINGS = [
         "多种用途"
       ],
       "areaNote": "合同面积728.01㎡（220坪）",
-      "desc": "出租退溪路大路边Adora Tower（아도라타워）10层整层。专用面积499.64㎡（151坪），合同面积728.01㎡（220坪）。\n除柱子外没有遮挡，空间开阔，窗户连成一排，采光和外部视野都很好。\n可用作办公室、医院、健身房，也可以开视野好的餐厅等多种用途。（根据业种可能需要办理用途变更。）\n建筑物台账上的用途为健身设施，目前正在办理变更为业务设施。\n室内有茶水间和男女分开的卫生间，并安装了吸顶式空调。\n目前空置，可立即入住。\n月租1,800万韩元不含增值税，管理费预计每月约198.2万韩元，电费、水费等使用费另计。\n每50坪免费提供1个停车位，大楼内有自走式停车场（整栋共47个车位）和2部电梯。"
+      "desc": "出租退溪路大路边Adora Tower（아도라타워）10层整层。专用面积499.64㎡（151坪），合同面积728.01㎡（220坪）。\n除柱子外没有遮挡，空间开阔，窗户连成一排，采光和外部视野都很好。\n可用作办公室、医院、健身房，也可以开视野好的餐厅等多种用途。（根据业种可能需要办理用途变更。）\n室内有茶水间和男女分开的卫生间，并安装了吸顶式空调。\n目前空置，可立即入住。\n月租1,700万韩元不含增值税，管理费预计每月约198.2万韩元，电费、水费等使用费另计。\n每50坪免费提供1个停车位，大楼内有自走式停车场（整栋共47个车位）和2部电梯。"
     },
     "en": {
       "title": "Adora Tower, whole 10th floor with great views (151 py exclusive)",
@@ -563,7 +563,7 @@ window.LISTINGS = [
         "Flexible use"
       ],
       "areaNote": "Contract area 728.01㎡ (220 py)",
-      "desc": "The entire 10th floor of Adora Tower (아도라타워) on Toegye-ro. Exclusive area 499.64㎡ (151 pyeong), contract area 728.01㎡ (220 pyeong).\nApart from the columns it is fully open, with a long run of windows for good light and outside views.\nSuitable for an office, clinic, gym, or a restaurant with a view, among other uses. (Some businesses may require a change of building use.)\nThe registered building use is a fitness facility, and a change to business facility is in progress.\nThere is a pantry, separate men's and women's restrooms, and ceiling air conditioning.\nCurrently vacant and available now.\nRent of ₩18,000,000/month excludes VAT. The maintenance fee is estimated at about ₩1,982,000/month; electricity, water and other utilities are extra.\nOne free parking space per 50 pyeong. The building has a self-park garage (47 spaces) and 2 elevators."
+      "desc": "The entire 10th floor of Adora Tower (아도라타워) on Toegye-ro. Exclusive area 499.64㎡ (151 pyeong), contract area 728.01㎡ (220 pyeong).\nApart from the columns it is fully open, with a long run of windows for good light and outside views.\nSuitable for an office, clinic, gym, or a restaurant with a view, among other uses. (Some businesses may require a change of building use.)\nThere is a pantry, separate men's and women's restrooms, and ceiling air conditioning.\nCurrently vacant and available now.\nRent of ₩17,000,000/month excludes VAT. The maintenance fee is estimated at about ₩1,982,000/month; electricity, water and other utilities are extra.\nOne free parking space per 50 pyeong. The building has a self-park garage (47 spaces) and 2 elevators."
     }
   },
   {
@@ -574,7 +574,7 @@ window.LISTINGS = [
     "loc": "중구 장충동2가",
     "deal": "월세",
     "deposit": 10000,
-    "rent": 1100,
+    "rent": 900,
     "fee": "약 99.8만원 (예상, 전기·수도 등 사용료 별도)",
     "area": 251.64,
     "areaNote": "계약면적 366.67㎡ (111평) · 2개 호실 통임대",
@@ -592,13 +592,13 @@ window.LISTINGS = [
       "퇴계로 대로변",
       "1층 2개 호실 통임대"
     ],
-    "desc": "퇴계로 대로변 아도라타워 1층 상가입니다. 2개 호실을 통으로 임대하며 전용면적 251.64㎡(76평), 계약면적 366.67㎡(111평)입니다.\n퇴계로 쪽 전면이 통유리로 되어 있어 가시성이 좋습니다.\n권리금 없으며, 현재 공실로 즉시 입주 가능합니다.\n월세 1,100만원은 부가세 별도이고, 관리비는 월 약 99.8만원(예상)이며 전기·수도 등 사용료는 별도입니다.\n건물 내 자주식 주차장(건물 전체 47대)과 엘리베이터 2대가 있습니다.",
+    "desc": "퇴계로 대로변 아도라타워 1층 상가입니다. 2개 호실을 통으로 임대하며 전용면적 251.64㎡(76평), 계약면적 366.67㎡(111평)입니다.\n퇴계로 쪽 전면이 통유리로 되어 있어 가시성이 좋습니다.\n권리금 없으며, 현재 공실로 즉시 입주 가능합니다.\n월세 900만원은 부가세 별도이고, 관리비는 월 약 99.8만원(예상)이며 전기·수도 등 사용료는 별도입니다.\n건물 내 자주식 주차장(건물 전체 47대)과 엘리베이터 2대가 있습니다.",
     "photos": [
       "listings/jangchung-shop-1f-1.jpg",
       "listings/jangchung-shop-1f-2.jpg",
       "listings/jangchung-shop-1f-3.jpg"
     ],
-    "updated": "2026-11-04",
+    "updated": "2026-11-26",
     "zh": {
       "title": "退溪路大路边1层玻璃门面大型商铺（专用76坪）",
       "tags": [
@@ -607,7 +607,7 @@ window.LISTINGS = [
         "1层2个铺位整体出租"
       ],
       "areaNote": "合同面积366.67㎡（111坪）· 2个铺位整体出租",
-      "desc": "退溪路大路边Adora Tower（아도라타워）1层商铺。2个铺位整体出租，专用面积251.64㎡（76坪），合同面积366.67㎡（111坪）。\n面向退溪路的一面全是玻璃，展示效果好。\n无权利金（转让费），目前空置，可立即入住。\n月租1,100万韩元不含增值税，管理费预计每月约99.8万韩元，电费、水费等使用费另计。\n大楼内有自走式停车场（整栋共47个车位）和2部电梯。"
+      "desc": "退溪路大路边Adora Tower（아도라타워）1层商铺。2个铺位整体出租，专用面积251.64㎡（76坪），合同面积366.67㎡（111坪）。\n面向退溪路的一面全是玻璃，展示效果好。\n无权利金（转让费），目前空置，可立即入住。\n月租900万韩元不含增值税，管理费预计每月约99.8万韩元，电费、水费等使用费另计。\n大楼内有自走式停车场（整栋共47个车位）和2部电梯。"
     },
     "en": {
       "title": "Large glass-front ground-floor shop on Toegye-ro (76 py exclusive)",
@@ -617,7 +617,7 @@ window.LISTINGS = [
         "2 units leased together"
       ],
       "areaNote": "Contract area 366.67㎡ (111 py) · 2 units leased together",
-      "desc": "Ground-floor retail in Adora Tower (아도라타워) on Toegye-ro. Two units are leased together: exclusive area 251.64㎡ (76 pyeong), contract area 366.67㎡ (111 pyeong).\nThe full glass front facing Toegye-ro gives great visibility.\nNo key money (premium). Currently vacant and available now.\nRent of ₩11,000,000/month excludes VAT. The maintenance fee is estimated at about ₩998,000/month; electricity, water and other utilities are extra.\nThe building has a self-park garage (47 spaces) and 2 elevators."
+      "desc": "Ground-floor retail in Adora Tower (아도라타워) on Toegye-ro. Two units are leased together: exclusive area 251.64㎡ (76 pyeong), contract area 366.67㎡ (111 pyeong).\nThe full glass front facing Toegye-ro gives great visibility.\nNo key money (premium). Currently vacant and available now.\nRent of ₩9,000,000/month excludes VAT. The maintenance fee is estimated at about ₩998,000/month; electricity, water and other utilities are extra.\nThe building has a self-park garage (47 spaces) and 2 elevators."
     }
   },
   {
