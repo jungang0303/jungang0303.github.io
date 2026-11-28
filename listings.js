@@ -303,7 +303,7 @@ window.LISTINGS = [
     "use": "단독주택",
     "parking": "불가",
     "violation": false,
-    "movein": "2026년 11월 21일부터",
+    "movein": "즉시 입주",
     "options": "벽걸이 에어컨, 냉장고, 세탁기, 싱크대, 인덕션 / 개별난방",
     "tags": [
       "동대문역사문화공원역 도보 5분",
@@ -317,7 +317,7 @@ window.LISTINGS = [
       "listings/jangchung1-oneroom-4.jpg",
       "listings/jangchung1-oneroom-5.jpg"
     ],
-    "updated": "2026-11-14",
+    "updated": "2026-11-28",
     "zh": {
       "title": "奖忠洞全配置一室",
       "tags": [
