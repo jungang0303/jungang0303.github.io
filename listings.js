@@ -228,63 +228,6 @@ window.LISTINGS = [
     }
   },
   {
-    "id": "jangchung1-oneroom-2",
-    "status": "공개",
-    "cat": "원룸·투룸",
-    "title": "동대문, 동국대 도보 가능한 풀옵션 원룸",
-    "loc": "중구 장충동1가",
-    "jibun": "38-60",
-    "deal": "월세",
-    "deposit": 500,
-    "rent": 60,
-    "fee": "7만원 (공용관리비, 수도, 인터넷 포함)",
-    "area": 19.82,
-    "floor": "1층",
-    "totalFloor": "3층",
-    "rooms": "방 1개 (오픈형)",
-    "baths": "욕실 1개",
-    "dir": "북향 (안방 기준)",
-    "approval": "2015년 5월 13일",
-    "use": "단독주택",
-    "parking": "불가",
-    "violation": false,
-    "movein": "2027년 1월 9일부터",
-    "options": "벽걸이 에어컨, 옷장, 냉장고, 세탁기, 인덕션, 인터폰, CCTV, 현관보안 / 개별난방",
-    "tags": [
-      "동대문역사문화공원역 도보 5분",
-      "풀옵션"
-    ],
-    "desc": "동대문역사문화공원역 도보 5분, 동대입구역 도보 12분 거리\n2, 3, 4, 5, 6호선 모두 이용이 가능한 위치라 서울 어디든 이동이 편리합니다.\n동대문시장 및 동국대학교 도보 가능합니다.",
-    "photos": [
-      "listings/jangchung1-oneroom-2-1.jpg",
-      "listings/jangchung1-oneroom-2-2.jpg",
-      "listings/jangchung1-oneroom-2-3.jpg",
-      "listings/jangchung1-oneroom-2-4.jpg",
-      "listings/jangchung1-oneroom-2-5.jpg",
-      "listings/jangchung1-oneroom-2-6.jpg",
-      "listings/jangchung1-oneroom-2-7.jpg",
-      "listings/jangchung1-oneroom-2-8.jpg",
-      "listings/jangchung1-oneroom-2-9.jpg"
-    ],
-    "updated": "2026-11-18",
-    "zh": {
-      "title": "东大门、东国大学步行可达的全配置一室",
-      "tags": [
-        "东大门历史文化公园站步行5分钟",
-        "全配置"
-      ],
-      "desc": "东大门历史文化公园站步行5分钟，东大入口站步行12分钟\n2、3、4、5、6号线均可乘坐，去首尔任何地方都很方便。\n东大门市场和东国大学均可步行前往。"
-    },
-    "en": {
-      "title": "Fully furnished studio, walk to Dongdaemun and Dongguk Univ.",
-      "tags": [
-        "5 min to Dongdaemun History & Culture Park Stn",
-        "Fully furnished"
-      ],
-      "desc": "5 min walk to Dongdaemun History & Culture Park Station, 12 min to Dongguk Univ. Station.\nLines 2, 3, 4, 5 and 6 are all available, so getting anywhere in Seoul is easy.\nDongdaemun Market and Dongguk University are both within walking distance."
-    }
-  },
-  {
     "id": "jangchung1-oneroom",
     "status": "공개",
     "cat": "원룸·투룸",
