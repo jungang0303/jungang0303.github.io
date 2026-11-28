@@ -285,63 +285,6 @@ window.LISTINGS = [
     }
   },
   {
-    "id": "jangchung-oneroom-4",
-    "status": "공개",
-    "cat": "원룸·투룸",
-    "title": "대로변에 위치한 넓은 원룸",
-    "loc": "중구 장충동2가",
-    "jibun": "174-1",
-    "deal": "월세",
-    "deposit": 500,
-    "rent": 70,
-    "fee": "7만원 (공용관리비, 수도, 인터넷 포함)",
-    "area": 27,
-    "floor": "5층",
-    "totalFloor": "5층",
-    "rooms": "방 1개 (오픈형)",
-    "baths": "욕실 1개",
-    "dir": "동향 (안방 기준)",
-    "approval": "2003년 6월 23일",
-    "use": "제2종근린생활시설",
-    "parking": "불가",
-    "violation": false,
-    "movein": "즉시 입주",
-    "options": "벽걸이 에어컨, 침대, 신발장, 냉장고, 세탁기, 싱크대, 인덕션, 전자레인지 / 개별난방",
-    "tags": [
-      "대로변 위치",
-      "즉시 입주"
-    ],
-    "desc": "동국대, CJ제일제당 모두 도보 가능한 넓은 사이즈의 원룸매물입니다.\n버스정류장과 동대문역사문화공원역 그리고 동대입구역까지도 모두 도보 가능해서 대중교통 이용하기도 편리하구요, 창이 양옆으로 크게 있어 창을 한쪽만 열어도 답답함 없이 시원하네요!\n집 앞에 바로 대로변이 있어 밤길도 무섭지 않구요, 인근에 초등학교가 있어서 경찰차도 수시로 다니기때문에 치안걱정 없는 위치 입니다.",
-    "photos": [
-      "listings/jangchung-oneroom-4-1.jpg",
-      "listings/jangchung-oneroom-4-2.jpg",
-      "listings/jangchung-oneroom-4-3.jpg",
-      "listings/jangchung-oneroom-4-4.jpg",
-      "listings/jangchung-oneroom-4-5.jpg",
-      "listings/jangchung-oneroom-4-6.jpg",
-      "listings/jangchung-oneroom-4-7.jpg",
-      "listings/jangchung-oneroom-4-8.jpg",
-      "listings/jangchung-oneroom-4-9.jpg"
-    ],
-    "updated": "2026-11-14",
-    "zh": {
-      "title": "大路边宽敞一室",
-      "tags": [
-        "临大路",
-        "可立即入住"
-      ],
-      "desc": "宽敞的一室户，步行可到东国大学和CJ第一制糖。\n公交车站、东大门历史文化公园站和东大入口站都可步行到达，出行方便。房间两侧都有大窗户，只开一边也很通透凉爽！\n门前就是大路，走夜路也不害怕；附近有小学，警车经常巡逻，治安让人放心。"
-    },
-    "en": {
-      "title": "Spacious studio on a main road",
-      "tags": [
-        "On a main road",
-        "Available now"
-      ],
-      "desc": "A spacious studio within walking distance of Dongguk University and CJ CheilJedang.\nThe bus stop, Dongdaemun History & Culture Park Station and Dongguk Univ. Station are all walkable, so getting around is easy. Large windows on both sides keep it airy even with just one open.\nIt faces a main road, so walking home at night feels safe, and with an elementary school nearby, police cars patrol often."
-    }
-  },
-  {
     "id": "jangchung1-oneroom",
     "status": "공개",
     "cat": "원룸·투룸",
